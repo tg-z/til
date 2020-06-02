@@ -5,6 +5,8 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
 - awk
 - bash
 - brew
+#### [privacy](./hacking)
+  - [the onion router](hacking/tor.md)
 #### [webdev](./webdev)  
   - [every html meta tag](webdev/html-meta-tags.md) 
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md) 
