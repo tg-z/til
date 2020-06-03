@@ -1,6 +1,8 @@
 ## today i learned
 welcome to my "today i learned" repo with short entries of some valuable lessons that made it easier to teach myself how to code.
 <br>
+#### [concepts](#concepts)
+  - [reductio ad absurdum](concepts/reductio-ad-absurdum.md) 
 #### [privacy](#privacy)
   - [the onion router](privacy/tor.md)
 #### [webdev](#webdev)  
