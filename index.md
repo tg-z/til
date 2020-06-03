@@ -4,7 +4,7 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
 #### [privacy](#privacy)
   - [the onion router](privacy/tor.md)
 #### [webdev](#webdev)  
-  - [every html meta tag](webdev/html-meta-tags.md
+  - [every html meta tag](webdev/html-meta-tags.md)
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
 
 
