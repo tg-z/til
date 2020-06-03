@@ -46,13 +46,15 @@
 <details><summary>some <code>oneliners</code>:</summary>
 
   ```bash
-    #!/bin/sh
-    curl https://www.mankier.com/api/v2/mans/?q="$1"
+#!/bin/sh
+curl https://www.mankier.com/api/v2/mans/?q="$1"
   ```
 </details>
+
 for using a collapse-able list-item:
 - item 1
 - item 2
+
  <details><summary>zsh - easy (click to expand)</summary>
 
   ```zsh
