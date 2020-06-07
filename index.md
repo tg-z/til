@@ -11,6 +11,11 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
 
 
 
+todo
+----
+- [] add new sections
+- [] do better
+- [ ] test
 
 
 
