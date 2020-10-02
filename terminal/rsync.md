@@ -1,0 +1,29 @@
+# rsync
+```
+# files from server (accepts * and regular expressions)
+
+rsync -avzPs '<user>@<server>:<folder>/*' .
+
+
+# files from server with special port (accepts * and regular expressions)
+
+rsync -e 'ssh -p <port>' -avzPs '<user>@<server>:<folder>/*' .
+
+
+# files from server with special port and special key (accepts * and regular expressions)
+
+rsync -e 'ssh -p <port> -i <key>' -avzPs '<user>@<server>:<folder>/*' .
+
+
+# files from server with special key (accepts * and regular expressions)
+
+rsync -e 'ssh -i <key>' -avzPs '<user>@<server>:<folder>/*' .
+
+
+$ user : cat ~/.ssh/config | grep User | awk '{print $2}' | uniq
+
+$ key : cat ~/.ssh/config | grep Id | awk '{print $2}' | uniq
+
+$ server : cat ~/.ssh/config | grep Host | awk '{print $2}'
+
+$ port : cat ~/.ssh/config | grep Port | awk '{print $2}'

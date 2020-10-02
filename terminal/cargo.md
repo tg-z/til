@@ -1,0 +1,27 @@
+# cargo
+```# to start a new project 
+cargo new <project> --bin 
+
+# start new project to using as a library
+cargo new <project> --lib     
+
+# build a project without optimizations (in debug mode)
+cargo build
+
+# build a project with optimizations turned on
+cargo build --release
+
+# build and run (without optimizations) a package with Cargo
+cargo run
+
+# updates dependencies in Cargo.lock
+cargo update            
+
+# run the project tests (from src/ and tests/)
+cargo test
+
+# clean all output build files and targets
+cargo clean
+
+# search for a package
+cargo search <package>

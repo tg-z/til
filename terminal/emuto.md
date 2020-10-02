@@ -1,0 +1,27 @@
+# emuto
+```
+# get number of items in a json file 
+curl <file>.json | emuto 'length'
+
+# get your karma on hacker news 
+curl https://hacker-news.firebaseio.com/v0/user/parasite.json -s | emuto '$.karma'
+
+# convert a commands output to json 
+ls | emuto -i=raw '$[0:-1]'
+
+# see number of npm dependencies 
+cat package.json | emuto -c '$.dependencies | keys | length'
+
+# list available scripts in package.json 
+cat package.json | emuto -c '$.scripts | keys | join " · "' 
+
+# json from github's api-v3 
+curl https://api.github.com/emojis | jq '.'
+
+# outputs a github users starred repos
+curl https://api.github.com/users/tg-z/starred |\
+emuto -c 'map ($ => $ { id name full_name owner { login } description html_url homepage language size stargazers_count } )' | jq '.'
+
+# outputs recent web-clip issues using curl  
+curl https://api.github.com/repos/tg-z/web-clip/issues |\
+emuto -c 'map ($ => $ { number title state asignee { labels { name color description } } body id created_at updated_at } )' | jq '.'
