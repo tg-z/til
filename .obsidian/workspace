@@ -1,0 +1,85 @@
+{
+  "main": {
+    "id": "ccaf8ee9d2f932b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c317cc39603c6699",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9cdeab61a878bc32",
+    "type": "split",
+    "children": [
+      {
+        "id": "ece51b02567bcf15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc42e525131dcd23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd448e7190fe2962",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 290.01219177246094
+  },
+  "right": {
+    "id": "cf97c9d2587cca12",
+    "type": "split",
+    "children": [
+      {
+        "id": "29d88c22491ef4cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68f4bf8ae85bf383",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "index.md",
+    "terminal/Untitled.md",
+    "terminal/asciinema.md",
+    "terminal/bash-color-codes.md",
+    "terminal/brew.md",
+    "terminal/cargo.md",
+    "terminal/crontab-guide.md",
+    "terminal/curl.md",
+    "terminal/pip.md",
+    "terminal/youtube-dl.md"
+  ]
+}

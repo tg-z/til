@@ -30,7 +30,3 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
   - [git change branch master to main](webdev/git-change-master2main.md)
   #### networking
   - [termux remote](networking/remote-termux.md)
-
-
-
-
