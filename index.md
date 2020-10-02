@@ -13,6 +13,16 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
   - [pass](terminal/pass.md)
   - [youtube-dl](terminal/youtube-dl.md)
   - [crontab guide](terminal/crontab-guide.md)
+  - [rsync](terminal/rsync.md)
+  - [pipx](terminal/pipx.md)
+  - [pip](terminal/pip.md)
+  - [npm](terminal/npm.md)
+  - [jc][terminal/jc.md]
+  - [emuto][terminal/emuto.md]
+  - [brew](terminal/brew.md)
+  - [curl](terminal/curl.md)
+  - [cargo](terminal/cargo.md)
+  - [ssh](terminal/ssh.md)
 #### [webdev](#webdev)
   - [every html meta tag](webdev/html-meta-tags.md)
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
