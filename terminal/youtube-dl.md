@@ -1,0 +1,89 @@
+# youtube-dl
+
+`# Download a video or playlist:
+youtube-dl <url>
+
+# List all formats that a video or playlist is available in:
+youtube-dl --list-formats <url>
+
+# Download a video or playlist at a specific quality:
+youtube-dl --format "best[height<=480]" <url>
+
+# Download the audio from a video and convert it to an MP3:
+youtube-dl -x --audio-format mp3 <url>
+
+# Download the best quality audio and video and merge them:
+youtube-dl -f bestvideo+bestaudio <url>
+
+# Download video(s) as MP4 files with custom filenames:
+youtube-dl --format mp4 -o "%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s" <url>
+
+# List available subtitles:
+youtube-dl --list-subs <url>
+
+# Download a particular language's subtitles along with the video:
+youtube-dl --sub-lang en --write-sub <url>
+
+# search youtube-dl help text 
+youtube-dl --help | grep extract-audio
+
+# Download single entry
+youtube-dl -i --extract-audio --audio-format mp3 --audio-quality 0 <url>
+
+# Download playlist
+youtube-dl -ict --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 <url> 
+
+# Download playlist, --download-archive downloaded.txt add successfully downloaded files into downloaded.txt
+youtube-dl --download-archive downloaded.txt --no-overwrites -ict --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 --socket-timeout 5 <url>
+
+# Retry until success, no -i option
+while ! youtube-dl --download-archive downloaded.txt --no-overwrites -ct --yes-playlist --extract-audio --audio-format mp3 --audio-quality 0 --socket-timeout 5 <YT_PlayList_URL>; do echo DISCONNECTED; sleep 5; done
+
+# Download only the videos uploaded in the last 6 months
+youtube-dl --dateafter now-6months
+
+# Download only the videos uploaded on January 1, 1970
+youtube-dl --date 19700101
+
+$ # Download only the videos uploaded in the 200x decade
+youtube-dl --dateafter 20000101 --datebefore 20091231
+
+# from luke smith https://www.youtube.com/watch?v=z_CcQhbwINU
+alias yt='youtube-dl --add-metadata -i'
+alias yta='yt -x -f bestaudio/best'
+
+# Always extract audio
+-x
+
+# Do not copy the mtime
+--no-mtime
+
+# Use this proxy
+--proxy 127.0.0.1:3128
+
+# Save all videos under Movies directory in your home directory
+-o ~/Movies/%(title)s.%(ext)s
+
+# Save all videos under mp3 directory in your home directory
+-o ~/mp3/%(title)s.%(ext)s
+
+$ youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc
+youtube-dl test video ''_ä↭𝕐.mp4    # All kinds of weird characters
+
+youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc --restrict-filenames
+youtube-dl_test_video_.mp4          # A simple file name
+
+# Download YouTube playlist videos in separate directory indexed by video order in a playlist
+youtube-dl -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re
+
+# Download all playlists of YouTube channel/user keeping each playlist in separate directory:
+youtube-dl -o '%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/user/TheLinuxFoundation/playlists
+
+# Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home
+youtube-dl -u user -p password -o '~/mp3/%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s' <https://www.udemy.com/java-tutorial/>
+
+# Download entire series season keeping each series and each season in separate directory under C:/MyVideos
+youtube-dl -o "C:/MyVideos/%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s" https://videomore.ru/kino_v_detalayah/5_sezon/367617
+
+# Stream the video being downloaded to stdout
+youtube-dl -o - BaW_jenozKc`
