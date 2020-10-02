@@ -1,6 +1,9 @@
 ## today i learned
 welcome to my "today i learned" repo with short entries of some valuable lessons that made it easier to teach myself how to code.
 <br>
+#### vim
+- [removing trailing whitespace](vim/removing-trailing-whitespace.md)
+- [replacing words](vim/replacing-words.md)
 #### concepts
   - [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
   - [straw man](concepts/straw-man.md)

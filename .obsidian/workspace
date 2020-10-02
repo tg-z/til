@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim/replacing-words.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/replacing-words.md"
+                "file": "index.md"
               }
             }
           }
@@ -76,9 +76,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "index.md",
     "vim/Untitled.md",
     "vim/remove-trailing-whitespace.md",
-    "index.md",
     "terminal/Untitled.md",
     "terminal/asciinema.md",
     "terminal/bash-color-codes.md",
