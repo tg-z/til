@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "vim/remove-trailing-whitespace.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -60,7 +63,9 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "vim/remove-trailing-whitespace.md"
+              }
             }
           }
         ]
@@ -71,6 +76,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "vim/remove-trailing-whitespace.md",
     "index.md",
     "terminal/Untitled.md",
     "terminal/asciinema.md",
@@ -79,7 +85,6 @@
     "terminal/cargo.md",
     "terminal/crontab-guide.md",
     "terminal/curl.md",
-    "terminal/pip.md",
-    "terminal/youtube-dl.md"
+    "terminal/pip.md"
   ]
 }
