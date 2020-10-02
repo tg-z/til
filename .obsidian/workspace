@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim/remove-trailing-whitespace.md",
+            "file": "vim/replacing-words.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim/remove-trailing-whitespace.md"
+                "file": "vim/replacing-words.md"
               }
             }
           }
@@ -76,6 +76,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "vim/Untitled.md",
     "vim/remove-trailing-whitespace.md",
     "index.md",
     "terminal/Untitled.md",
@@ -84,7 +85,6 @@
     "terminal/brew.md",
     "terminal/cargo.md",
     "terminal/crontab-guide.md",
-    "terminal/curl.md",
-    "terminal/pip.md"
+    "terminal/curl.md"
   ]
 }
