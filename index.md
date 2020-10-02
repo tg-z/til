@@ -17,8 +17,8 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
   - [pipx](terminal/pipx.md)
   - [pip](terminal/pip.md)
   - [npm](terminal/npm.md)
-  - [jc][terminal/jc.md]
-  - [emuto][terminal/emuto.md]
+  - [jc](terminal/jc.md)
+  - [emuto](terminal/emuto.md)
   - [brew](terminal/brew.md)
   - [curl](terminal/curl.md)
   - [cargo](terminal/cargo.md)
