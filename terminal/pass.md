@@ -1,5 +1,5 @@
 # pass
-`# start a new password store
+```# start a new password store
 
 pass init 
 

@@ -1,5 +1,5 @@
 # git
-`# Set global git user name
+```# Set global git user name
 git config --global user.name <name>
 
 # Set global git user email

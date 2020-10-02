@@ -1,6 +1,6 @@
 # youtube-dl
 
-`# Download a video or playlist:
+```# Download a video or playlist:
 youtube-dl <url>
 
 # List all formats that a video or playlist is available in:

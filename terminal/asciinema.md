@@ -1,6 +1,6 @@
 # asciinema
 
-`# record a terminal session
+```# record a terminal session
 asciinema rec 
 
 # replay terminal session
