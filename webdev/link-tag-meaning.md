@@ -1,9 +1,3 @@
-<div id="username">
-
-[UserPreferences](/wiki/pie/UserPreferences)
-
-</div>
-
 <div id="title">
 
 [LinkTagMeaning](http://intertwingly.net/wiki/pie/LinkTagMeaning?action=fullsearch&value=LinkTagMeaning&literal=1&case=1&context=40)
