@@ -29,7 +29,7 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
 #### webdev
   - [every html meta tag](webdev/html-meta-tags.md)
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
-  - [python shell](webdev/python_shell.md)
+  - [python shell](webdev/python-shell.md)
   - [git change branch master to main](webdev/git-master-to-main.md)
   #### networking
   - [termux remote](networking/remote-termux.md)
