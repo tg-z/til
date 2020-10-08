@@ -1,9 +1,3 @@
-<div id="logo">
-
-[![Atom Wiki](/images/atom-logo75px.gif)](/wiki/pie/FrontPage)
-
-</div>
-
 <div id="username">
 
 [UserPreferences](/wiki/pie/UserPreferences)
@@ -12,9 +6,8 @@
 
 <div id="title">
 
-[LinkTagMeaning](/wiki/pie/LinkTagMeaning?action=fullsearch&value=LinkTagMeaning&literal=1&case=1&context=40 "Click here to do a full-text search for this title")
-==================================================================================================================================================================
-
+[LinkTagMeaning](http://intertwingly.net/wiki/pie/LinkTagMeaning?action=fullsearch&value=LinkTagMeaning&literal=1&case=1&context=40)
+---
 </div>
 
 ------------------------------------------------------------------------
@@ -74,18 +67,17 @@ it would be better to use 'bookmark'?
 
 ------------------------------------------------------------------------
 
-See also : [LinkElement](/wiki/pie/LinkElement)
+See also : [LinkElement](http://intertwingly.net/wiki/pie/LinkElement)
+
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
-\(1\) Very cool for Spiders, necessary for
-[LinksLog](/wiki/pie/LinksLog)
+[1](http://intertwingly.net/wiki/pie/LinksLog) Very cool for Spiders, necessary for
+[LinksLog](http://intertwingly.net/wiki/pie/LinksLog)
 
 #### Notes
 
-\[[AnneVanKesteren](/wiki/pie/AnneVanKesteren)\] It has been suggested
+[AnneVanKesteren](http://intertwingly.net/wiki/pie/AnneVanKesteren) It has been suggested
 to replace 'alternate', currently being specified as the permalink for
 the ENTRY, with 'bookmark', which seems semantically more appropriate.
 'about' has been suggested as well, which is a link that points to a
@@ -94,12 +86,5 @@ URI, which is the subject of the post (needed for Link logs).
 </div>
 
 <div id="footer">
-
-<div id="credits">
-
-[MoinMoin Powered](http://moinmoin.wikiwikiweb.de/)  
-[<img src="/moin-1.2.1/wiki/htdocs/classic/img/PythonPowered.png" width="55" height="22" alt="PythonPowered" />](http://www.python.org/)
-
-</div>
 
 </div>
