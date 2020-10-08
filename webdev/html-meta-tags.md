@@ -1,6 +1,6 @@
 ## html meta tags 
 
-Copied from [[lancepollard.com](]])(http://code.lancepollard.com/complete-list-of-html-meta-tags/)
+Copied from [[lancepollard.com](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
 
 ## Basic HTML Meta Tags
 
