@@ -1,5 +1,5 @@
 ## today i learned
-welcome to my "today i learned" repo with short entries of some valuable lessons that made it easier to teach myself how to code.
+> welcome to my "today i learned" repo with short entries of some valuable lessons that made it easier to teach myself how to code.
 <br>
 #### vim
 - [removing trailing whitespace](vim/removing-trailing-whitespace.md)
@@ -31,5 +31,5 @@ welcome to my "today i learned" repo with short entries of some valuable lessons
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
   - [python shell](webdev/python-shell.md)
   - [git change branch master to main](webdev/git-master-to-main.md)
-  #### networking
+#### networking
   - [termux remote](networking/remote-termux.md)
