@@ -1,6 +1,7 @@
 ## html meta tags 
+[https://gist.github.com/lancejpollard](https://gist.github.com/lancejpollard/1978404)
 
-Copied from [[lancepollard.com](http://code.lancepollard.com/complete-list-of-html-meta-tags/)
+> Complete List of HTML Meta Tags
 
 ## Basic HTML Meta Tags
 
