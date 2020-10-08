@@ -65,8 +65,7 @@ See also : [LinkElement](http://intertwingly.net/wiki/pie/LinkElement)
 
 ------------------------------------------------------------------------
 
-[1](http://intertwingly.net/wiki/pie/LinksLog) Very cool for Spiders, necessary for
-[LinksLog](http://intertwingly.net/wiki/pie/LinksLog)
+[1.](http://intertwingly.net/wiki/pie/LinksLog) Very cool for Spiders, necessary for [LinksLog](http://intertwingly.net/wiki/pie/LinksLog)
 
 #### Notes
 
