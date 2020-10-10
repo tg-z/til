@@ -1,9 +1,14 @@
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+> 
+
 # Media Types
-[https://www.iana.org/assignments/media-types/media-types.xhtml](https://www.iana.org/assignments/media-types/media-types.xhtml)
+Media Types
+===========
 
-> iana media types
+Last Updated
 
-Last Updated: 2020-10-09
+2020-10-09
 
 Registration Procedure(s)
 
@@ -11489,4 +11494,3 @@ VP8
 [video/VP8](video/VP8)
 
 \[[RFC7741](https://www.iana.org/go/rfc7741)\]
-
