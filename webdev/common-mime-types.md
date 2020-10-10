@@ -36,7 +36,7 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 |`.ics`|iCalendar format|`text/calendar`|
 |`.jar`|Java Archive (JAR)|`application/java-archive`|
 |`.jpeg` `.jpg`|JPEG images|`image/jpeg`|
-|`.js`|JavaScript|text/javascript, per the following specifications: [1](https://html.spec.whatwg.org/multipage/#scriptingLanguages) [2](https://html.spec.whatwg.org/multipage/#dependencies:willful-violation) [3](https://datatracker.ietf.org/doc/draft-ietf-dispatch-javascript-mjs/)|
+|`.js`|JavaScript|text/javascript, per the following specifications: [1](https://html.spec.whatwg.org/multipage/#scriptingLanguages), [2](https://html.spec.whatwg.org/multipage/#dependencies:willful-violation), [3](https://datatracker.ietf.org/doc/draft-ietf-dispatch-javascript-mjs/)|
 | `.json`   | JSON format    | `application/json`    |
 | `.jsonld` | JSON-LD format | `application/ld+json` |
 |`.mid` `.midi`|Musical Instrument Digital Interface (MIDI)|`audio/midi audio/x-midi`|
@@ -80,9 +80,9 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 |`.xml`|XML|`application/xml` if **not** readable from casual users (RFC 3023, section 3) `text/xml` if readable from casual users (RFC 3023, section 3)|
 |`.xul`|XUL|`application/vnd.mozilla.xul+xml`|
 |`.zip`|ZIP archive|`application/zip`|
-|`.3gp`|3GPP audio/video container|video/3gpp audio/3gpp if it doesn't contain video|
-|`.3g2`|3GPP2 audio/video container|video/3gpp2 audio/3gpp2 if it doesn't contain video|
+|`.3gp`|3GPP audio/video container|`video/3gpp` `audio/3gpp` if it doesn't contain video|
+|`.3g2`|3GPP2 audio/video container|`video/3gpp2` `audio/3gpp2` if it doesn't contain video|
 | `.7z` | 7-zip archive | `application/x-7z-compressed` |
 
 enflerfir
-ekf
+ekft
