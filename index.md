@@ -36,6 +36,7 @@
   - [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
   - [python shell](webdev/python-shell.md)
   - [git change branch master to main](webdev/git-master-to-main.md)
+  - [common mime types](webdev/common-mime-types.md)
 
 ### networking
   - [termux remote](networking/remote-termux.md)
