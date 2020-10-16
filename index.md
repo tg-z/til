@@ -3,18 +3,24 @@
 > welcome to my "today i learned" repo with short entries of some valuable lessons that made it easier to teach myself how to code.
 
 
-<details><summary>vim</summary>
+<details>
+	<summary>vim</summary>
+	
 	- [removing trailing whitespace](vim/removing-trailing-whitespace.md)
 	- [replacing words](vim/replacing-words.md)
 </details>
 
-<details><summary>concepts</summary>
+<details>
+	<summary>concepts</summary>
+	
 	- [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 	- [straw man](concepts/straw-man.md)
 	- [stop usrbinenv shebang](concepts/stop-usrbinenv.md)
 </details>
 
-<details><summary>terminal</summary>
+<details>
+	<summary>terminal</summary>
+	
 	- [bash-color-codes](terminal/bash-color-codes.md)
 	- [weechat quick start guide](terminal/weechat-quick-start.md)
 	- [asciinema](terminal/asciinema.md)
@@ -34,7 +40,9 @@
 	- [ssh](terminal/ssh.md)
 </details>
 
-<details><summary>webdev</summary>
+<details>
+	<summary>webdev</summary>
+	
 	- [every html meta tag](webdev/html-meta-tags.md)
 	- [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
 	- [python shell](webdev/python-shell.md)
@@ -42,6 +50,8 @@
 	- [common mime types](webdev/common-mime-types.md)
 </details>
 
-<details><summary>networking</summary>
+<details>
+	<summary>networking</summary>
+	
 	- [termux remote](networking/remote-termux.md)
 </details>
