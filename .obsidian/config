@@ -12,5 +12,6 @@
   },
   "vimMode": true,
   "strictLineBreaks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
