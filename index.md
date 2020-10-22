@@ -10,6 +10,17 @@ today i learned
 
 </details>
 
+<details><summary>webdev</summary>
+	
+- [every html meta tag](webdev/html-meta-tags.md)
+- [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
+- [python shell](webdev/python-shell.md)
+- [git change branch master to main](webdev/git-master-to-main.md)
+- [common mime types](webdev/common-mime-types.md)
+- [git branch guide](webdev/git-branching.md)
+
+</details>
+
 <details><summary>terminal</summary>
 
 - [bash-color-codes](terminal/bash-color-codes.md)
@@ -29,17 +40,6 @@ today i learned
 - [curl](terminal/curl.md)
 - [cargo](terminal/cargo.md)
 - [ssh](terminal/ssh.md)
-
-</details>
-
-<details><summary>webdev</summary>
-	
-- [every html meta tag](webdev/html-meta-tags.md)
-- [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
-- [python shell](webdev/python-shell.md)
-- [git change branch master to main](webdev/git-master-to-main.md)
-- [common mime types](webdev/common-mime-types.md)
-- [git branch guide](webdev/git-branching.md)
 
 </details>
 
