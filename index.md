@@ -5,7 +5,7 @@ today i learned
 
 <details><summary>vim</summary>
 
-- [removing trailing whitespace using vim](vim/removing-trailing-whitespace.md)
+- [removing trailing whitespace in vim](vim/removing-trailing-whitespace.md)
 - [replacing words in vim](vim/replacing-words.md)
 
 </details>
@@ -39,7 +39,7 @@ today i learned
 - [python shell](webdev/python-shell.md)
 - [git change branch master to main](webdev/git-master-to-main.md)
 - [common mime types](webdev/common-mime-types.md)
-- [git branch guide](webdev/git-branch-guide.md)
+- [git branch guide](webdev/git-branching.md)
 
 </details>
 
