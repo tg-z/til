@@ -1,4 +1,5 @@
-## today i learned
+today i learned
+---
 
 > welcome to my "today i learned" repository - inside you'll find short entries with information for my own reference & retention. [*](#)
 
