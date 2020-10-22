@@ -5,8 +5,8 @@ today i learned
 
 <details><summary>vim</summary>
 
-- [removing trailing whitespace](vim/removing-trailing-whitespace.md)
-- [replacing words](vim/replacing-words.md)
+- [removing trailing whitespace using vim](vim/removing-trailing-whitespace.md)
+- [replacing words in vim](vim/replacing-words.md)
 
 </details>
 
@@ -25,7 +25,7 @@ today i learned
 - [npm](terminal/npm.md)
 - [jc](terminal/jc.md)
 - [emuto](terminal/emuto.md)
-- [brew](terminal/brew.md)
+- [homebrew guide](terminal/brew.md)
 - [curl](terminal/curl.md)
 - [cargo](terminal/cargo.md)
 - [ssh](terminal/ssh.md)
@@ -35,10 +35,11 @@ today i learned
 <details><summary>webdev</summary>
 	
 - [every html meta tag](webdev/html-meta-tags.md)
-- [how to add collapsible sections in markdown](webdev/markdown-details-collapsible.md)
+- [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
 - [python shell](webdev/python-shell.md)
 - [git change branch master to main](webdev/git-master-to-main.md)
 - [common mime types](webdev/common-mime-types.md)
+- [git branch guide](webdev/git-branch-guide.md)
 
 </details>
 
