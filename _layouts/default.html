@@ -1,10 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="%root_path%style.css"/>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-   <title>%title%</title>
-
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="%root_path%style.css"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>%title%</title>
+	  <style>
+    		$styles.html()$
+  	   </style>
+$for(css)$
+  <link rel="stylesheet" href="$css$" />
+$endfor$
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">
+$for(header-includes)$
+  $header-includes$
+$endfor$
 </head>
   <body>
 	<div class="content">
