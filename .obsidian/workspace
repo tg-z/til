@@ -43,12 +43,20 @@
                 "query": ""
               }
             }
+          },
+          {
+            "id": "f63dc456d7f477a8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.01219177246094
+    "width": 126.01219177246094
   },
   "right": {
     "id": "cf97c9d2587cca12",
@@ -72,19 +80,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 203.61337280273438
   },
   "lastOpenFiles": [
     "index.md",
+    "vim/remove-trailing-whitespace.md",
+    "vim/replacing-words.md",
     "webdev/surfingkeys.md",
     "webdev/markdown-details-collapsible.md",
     "vim/Untitled.md",
-    "vim/remove-trailing-whitespace.md",
     "terminal/Untitled.md",
     "terminal/asciinema.md",
     "terminal/bash-color-codes.md",
-    "terminal/brew.md",
-    "terminal/cargo.md"
+    "terminal/brew.md"
   ]
 }

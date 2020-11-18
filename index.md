@@ -5,7 +5,7 @@ today i learned
 
 <details><summary>vim</summary>
 
-- [removing trailing whitespace in vim](vim/removing-trailing-whitespace.md)
+- [removing trailing whitespace in vim](vim/remove-trailing-whitespace.md)
 - [replacing words in vim](vim/replacing-words.md)
 
 </details>
