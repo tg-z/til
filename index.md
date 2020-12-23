@@ -7,6 +7,7 @@ today i learned
 
 - [removing trailing whitespace in vim](vim/remove-trailing-whitespace.md)
 - [replacing words in vim](vim/replacing-words.md)
+- [vim cli](vim/vim-cli.md)
 
 </details>
 
