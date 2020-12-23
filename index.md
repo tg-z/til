@@ -12,7 +12,7 @@ today i learned
 </details>
 
 <details><summary>webdev</summary>
-	
+
 - [every html meta tag](webdev/html-meta-tags.md)
 - [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
 - [python shell](webdev/python-shell.md)
