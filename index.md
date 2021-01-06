@@ -1,18 +1,29 @@
-today i learned
----
+<h1 align="center"><code>$ til</code></h1>
 
-> welcome to my "today i learned" repository - inside you'll find short entries with information for my own reference & retention. [*](#)
+<p align="center">
+<a href="https://github.com/tg-z/til/issues"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
+<a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
+<a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
+<img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"/></a>
+</p>
 
-<details><summary>vim</summary>
+<p align="center">
+welcome to my "today i learned" repository - it's filled with short entries of information for my own reference & retention 📓
+</p>
 
-- [removing trailing whitespace in vim](vim/remove-trailing-whitespace.md)
+<p align="center">
+  <a href="#vim">vim</a> •
+  <a href="#webdev">webdev</a> •
+  <a href="#terminal">terminal</a> •
+  <a href="#networking">networking</a> •
+  <a href="#concepts">concepts</a><br>
+</p>
+
+## vim
+- [removing trailing whitespace in vim](vim/removing-trailing-whitespace.md)
 - [replacing words in vim](vim/replacing-words.md)
-- [vim cli](vim/vim-cli.md)
 
-</details>
-
-<details><summary>webdev</summary>
-
+## webdev
 - [every html meta tag](webdev/html-meta-tags.md)
 - [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
 - [python shell](webdev/python-shell.md)
@@ -20,10 +31,7 @@ today i learned
 - [common mime types](webdev/common-mime-types.md)
 - [git branch guide](webdev/git-branching.md)
 
-</details>
-
-<details><summary>terminal</summary>
-
+## terminal
 - [bash-color-codes](terminal/bash-color-codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
 - [asciinema](terminal/asciinema.md)
@@ -42,22 +50,10 @@ today i learned
 - [cargo](terminal/cargo.md)
 - [ssh](terminal/ssh.md)
 
-</details>
+## networking
+- [termux remote](networking/remote-termux.md)
 
-<details><summary>concepts</summary>
-
+## concepts
 - [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 - [straw man](concepts/straw-man.md)
 - [stop usrbinenv shebang](concepts/stop-usrbinenv.md)
-
-</details>
-
-<details><summary>networking</summary>
-
-- [termux remote](networking/remote-termux.md)
-
-</details>
-
----
-[*](#) exceptions to development & coding can be found in `concepts`.
-
