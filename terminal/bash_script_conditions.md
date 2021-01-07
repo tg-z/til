@@ -24,12 +24,11 @@ fi
 
 There are three syntaxes for define the condition
 
-1. Single-Bracket
+# Single-Bracket
  
 Support 3 types of conditions
 
-[](#filebased-condition)File-based condition
----
+## [](#filebased-condition)File-based condition
 * `[ -a file ]` or `[ -e file ]` : if the file is exists
 * `[ -d directory ]` : if the directory is exists and it's a directory
 * `[ -r file ]` : if the file is exists and is readable to the script
@@ -70,16 +69,14 @@ Support 3 types of conditions
 * `[ -t file ]` : if the file descriptor is exists and refers to an open terminal
  
 
-[](#stringbased-condition)String-based condition
----
+ ## [](#stringbased-condition)String-based condition
 * `[ STRING1 == STRING2 ]` : if equal
 * `[ STRING1 != STRING2 ]` : if not equal
 * `[ -n STRING ]` : if has length of more than zero
 * `[ -z STRING ]` : if an empty string
 * `[ STRING =~ PATTERN ]` : if match the regex pattern
 
-[](#arithmetic-condition)Arithmetic condition
----
+## [](#arithmetic-condition)Arithmetic condition
 * `[ NUM1 -eq NUM2 ]` : if equal
 * `[ NUM1 -ne NUM2 ]` : if not equal
 * `[ NUM1 -gt NUM2 ]` : if greater than
@@ -87,7 +84,7 @@ Support 3 types of conditions
 * `[ NUM1 -lt NUM2 ]` : if less than
 * `[ NUM1 -le NUM2 ]` : if less than equal
 
-2. Double-bracket
+# Double-bracket
 
 This is the enhanced version of single-bracket. All features in single-bracket syntax are compatible here. We can start using this syntax.
 
@@ -99,7 +96,7 @@ The differences :
  
 * Can use `&&` and `||` instead of `-a` and `-o`
  
-3. Double-parenthesis
+# Double-parenthesis
 
 This is another syntax for arithmetic condition
 
