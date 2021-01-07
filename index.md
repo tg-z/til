@@ -32,7 +32,7 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 - [git branch guide](webdev/git-branching.md)
 
 ## terminal
-- [bash-color-codes](terminal/bash-color-codes.md)
+- [bash color codes](terminal/bash_color_codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
 - [bash script conditions](terminal/bash_script_conditions.md)
 - [asciinema](terminal/asciinema.md)
