@@ -34,6 +34,7 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 ## terminal
 - [bash-color-codes](terminal/bash-color-codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
+- [bash script conditions](terminal/bash_script_conditions.md)
 - [asciinema](terminal/asciinema.md)
 - [git](terminal/git.md)
 - [pass](terminal/pass.md)
