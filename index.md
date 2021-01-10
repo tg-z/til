@@ -20,8 +20,9 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 </p>
 
 ## vim
-- [removing trailing whitespace in vim](vim/removing-trailing-whitespace.md)
-- [replacing words in vim](vim/replacing-words.md)
+- [vim commandline](vim/vim-cli.md)
+- [remove trailing whitespace in vim](vim/remove-trailing-whitespace.md)
+- [replace words in vim](vim/replacing-words.md)
 
 ## webdev
 - [every html meta tag](webdev/html-meta-tags.md)
