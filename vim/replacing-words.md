@@ -4,8 +4,7 @@ https://vim.help/12-clever-tricks#12.7
 > By combining several commands you can make Vim do nearly everything. In this chapter a number of useful combinations will be presented. This uses the commands introduced in the previous chapters and a few more.
 
 ## Clever tricks
-Replace a word
----
+### Replace a word
 
 The substitute command can be used to replace all occurrences of a word with another word:
 
@@ -25,7 +24,7 @@ If you are programming, you might want to replace `four` in comments, but not in
 
 :%s/\\<four\\>/4/gc
 
-### [#](#replacing-in-several-files)Replacing in several files
+### Replacing in several files
 
 Suppose you want to replace a word in more than one file. You could edit each file and type the command manually. It's a lot faster to use record and playback.
 

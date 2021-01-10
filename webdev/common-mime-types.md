@@ -1,4 +1,4 @@
-# Common MIME types
+# common mime types
 
 > Here is a list of MIME types, associated by type of documents, ordered by their common extensions.
 
@@ -6,8 +6,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Comm
 
 Two primary MIME types are important for the role of default types:
 
-*   `text/plain` is the default value for textual files. A textual file should be human-readable and must not contain binary data.
-*   `application/octet-stream` is the default value for all other cases. An unknown file type should use this type. Browsers pay a particular care when manipulating these files, attempting to safeguard the user to prevent dangerous behaviors.
+* `text/plain` is the default value for textual files. A textual file should be human-readable and must not contain binary data.
+* `application/octet-stream` is the default value for all other cases. An unknown file type should use this type. Browsers pay a particular care when manipulating these files, attempting to safeguard the user to prevent dangerous behaviors.
 
 IANA is the official registry of MIME media types and maintains a [list of all the official MIME types](http://www.iana.org/assignments/media-types/media-types.xhtml). This table lists some important MIME types for the Web:
 
@@ -37,7 +37,7 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 |`.jar`|Java Archive (JAR)|`application/java-archive`|
 |`.jpeg` `.jpg`|JPEG images|`image/jpeg`|
 |`.js`|JavaScript|text/javascript, per the following specifications: [1](https://html.spec.whatwg.org/multipage/#scriptingLanguages), [2](https://html.spec.whatwg.org/multipage/#dependencies:willful-violation), [3](https://datatracker.ietf.org/doc/draft-ietf-dispatch-javascript-mjs/)|
-| `.json`   | JSON format    | `application/json`    |
+| `.json` | JSON format    | `application/json`    |
 | `.jsonld` | JSON-LD format | `application/ld+json` |
 |`.mid` `.midi`|Musical Instrument Digital Interface (MIDI)|`audio/midi audio/x-midi`|
 |`.mjs`|JavaScript module|`text/javascript`|
@@ -84,5 +84,3 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 |`.3g2`|3GPP2 audio/video container|`video/3gpp2` `audio/3gpp2` if it doesn't contain video|
 | `.7z` | 7-zip archive | `application/x-7z-compressed` |
 
-enflerfir
-ekft

@@ -8,3 +8,7 @@ install vim-plugins + quit vim when done:
 vim -es -u vimrc -i NONE -c "PlugInstall" -c "qa"
 ```
 
+update vim-plugins + quit vim when done:
+```sh
+vim -es -u vimrc -i NONE -c "PlugUpdate" -c "qa"
+```

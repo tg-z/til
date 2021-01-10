@@ -1,6 +1,6 @@
-# unix-color-codes
+# bash color codes
 
-```
+```bash
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
 
@@ -75,7 +75,6 @@ On_ICyan="\[\033[0;106m\]"    # Cyan
 On_IWhite="\[\033[0;107m\]"   # White
 
 
-
 BLACK="\[\e[00;30m\]"
 DARY_GRAY="\[\e[01;30m\]"
 RED="\[\e[00;31m\]"
@@ -100,4 +99,5 @@ ENDCOLOR="\e[m"
 # OR
 # echo -e "\033[0;42m hi \033[0m"
 # OR
-# echo -e "${On_Green} hi${Color_Off} man"`
+# echo -e "${On_Green} hi${Color_Off} man"
+```

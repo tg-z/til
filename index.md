@@ -41,5 +41,4 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 
 ## concepts
 - [straw man](concepts/straw-man.md)
-- [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 - [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.md)
