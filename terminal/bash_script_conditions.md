@@ -1,31 +1,31 @@
 # bash script conditions
 > https://dev.to/zakiarsyad/bash-script-conditions-1ano
 
-Basic usage of if statement in bash scripting 
+Basic usage of if statement in bash scripting
 
 ```sh
 if [ CONDITION ]; then FIRST_COMMANDS
 elif [ CONDITION ]; then SECOND_COMMANDS
 else THRID_COMMANDS
-fi 
+fi
 ```
 
 * Always use space between the brackets in the condition.
 * Always terminate the line with `;` before adding a new keyword
- 
+
  `if [ CONDITION ]; then`
- 
+
 * Use `!` to invert the condition
- 
+
  `if [ ! CONDITION ]; then`
- 
+
 * Combine conditions using `-a` for AND, and `-o` for OR
- 
+
 
 There are three syntaxes for define the condition
 
 # Single-Bracket
- 
+
 Support 3 types of conditions
 
 ## [](#filebased-condition)File-based condition
@@ -35,39 +35,39 @@ Support 3 types of conditions
 * `[ -w file ]` : if the file is exists and is writeable to the script
 * `[ -x file ]` : if the file is exists and is executable to the script
 * `[ -s file ]` : if the file is exists and has a size of more than 0 bytes
- 
+
 * `[ file1 -ef file2]` : if the files refer to the same device/inode number
- 
+
 * `[ file1 -nt file2]` : if the file1 was changed more recently than file2, or if file1 exists and file2 doesn't
- 
+
 * `[ file1 -nt file2]` : if the file1 was changed longer ago than file2, or if file1 exists and exists
- 
+
 * `[ -N file ]` : if the file is exists and was modified after the last read
- 
+
 * `[ -g file ]` : if the file is exists and is a set-group-ID
- 
+
 * `[ -u file ]` : if the file is exists and is a set-user-ID
- 
+
 * `[ -G file ]` : if the file is exists and is owned by the effective group ID
- 
+
 * `[ -O file ]` : if the file is exists and is owned by the user executing the script
- 
+
 * `[ -b file ]` : if the file is exists and is a block special
- 
+
 * `[ -c file ]` : if the file is exists and is a character special
- 
+
 * `[ -f file ]` : if the file is exists and is a regular file
- 
+
 * `[ -h file ]` or `[ -L file ]` : if the file is exists and is a symbolic link
- 
+
 * `[ -k file ]` : if the file is exists and has its sticky bit set
- 
+
 * `[ -p file ]` : if the file is exists and is a named pipe
- 
+
 * `[ -S file ]` : if the file is exists and is a socket
- 
+
 * `[ -t file ]` : if the file descriptor is exists and refers to an open terminal
- 
+
 
  ## [](#stringbased-condition)String-based condition
 * `[ STRING1 == STRING2 ]` : if equal
@@ -91,11 +91,11 @@ This is the enhanced version of single-bracket. All features in single-bracket s
 The differences :
 
 * Can use regex
- 
+
  `[[ STRING =~ PATTERN ]]` : if match the regex pattern
- 
+
 * Can use `&&` and `||` instead of `-a` and `-o`
- 
+
 # Double-parenthesis
 
 This is another syntax for arithmetic condition
@@ -107,12 +107,12 @@ This is another syntax for arithmetic condition
 * `(( NUM1 < NUM2 ))` : if less than
 * `(( NUM1 <= NUM2 ))` : if less than equal
 
-We also can quickly test a condition like this 
+We also can quickly test a condition like this
 
 ```sh
 # using &&
 [ $foo == "bar" ] && echo true
 
 # using ||
-[ $foo == "bar" ] || echo true 
+[ $foo == "bar" ] || echo true
 ```
