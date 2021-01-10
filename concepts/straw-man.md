@@ -1,3 +1,6 @@
+# straw man
+> https://simplicable.com/new/straw-man
+
 A **straw man** is an argument that refutes a position that was not presented by an opponent. It is a common and lazy tactic that nevertheless may [influence](https://simplicable.com/new/influence) an audience. The following are illustrative examples.
 
 ## Deflection
@@ -31,32 +34,8 @@ A straw man seeks to misrepresent the opponent's argument to make it appear weak
 ### Etymology
 
 The term straw man first appears in 1585-95 to refer to something that is insubstantial. This is considered an [analogy](https://simplicable.com/new/analogy) to a scarecrow stuffed with straw that is designed to look like a man without the substantial elements of a human such as a brain. An 1897 definition of "man of straw" reads “The figure of a man formed of an old suit of clothes stuffed with straw; hence, the mere resemblance of a man; one of no substance or means; an imaginary person.”
-| Overview: Straw Man |
-| Type | 
-
-[Argument](https://simplicable.com/new/argument)
-
-
-| Definition | An argument that refutes a position that was not presented by an opponent. |
-| Related Concepts | 
-
-[Argument](https://simplicable.com/new/argument) »
-
-[Influence](https://simplicable.com/new/influence) »
-
-[Global Warming](https://simplicable.com/new/global-warming) »
-
-[Living Streets](https://simplicable.com/new/living-street) »
-
-[Objectivity](https://simplicable.com/new/objectivity) »
-
-[Analogy](https://simplicable.com/new/analogy) »
-
-
 
 ## References
 
-Random House Webster's Unabridged Dictionary, 1986 Universal Dictionary of the English Language, 1897
-
-Anna, Mar. "6 Examples of a Straw Man." Simplicable, August 08 2018. Web.
-Mode of access: https://simplicable.com/new/straw-man 
+1. Random House Webster's Unabridged Dictionary, 1986 Universal Dictionary of the English Language, 1897
+2. [Anna, Mar. "6 Examples of a Straw Man." Simplicable, August 08 2018. Web.](https://simplicable.com/new/straw-man)

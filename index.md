@@ -30,26 +30,16 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 - [python shell](webdev/python-shell.md)
 - [git change branch master to main](webdev/git-master-to-main.md)
 - [common mime types](webdev/common-mime-types.md)
-- [git branch guide](webdev/git-branching.md)
 
 ## terminal
 - [bash color codes](terminal/bash_color_codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
 - [bash script conditions](terminal/bash_script_conditions.md)
-- [asciinema](terminal/asciinema.md)
 - [git](terminal/git.md)
 - [pass](terminal/pass.md)
 - [youtube-dl](terminal/youtube-dl.md)
 - [crontab guide](terminal/crontab-guide.md)
 - [rsync](terminal/rsync.md)
-- [pipx](terminal/pipx.md)
-- [pip](terminal/pip.md)
-- [npm](terminal/npm.md)
-- [jc](terminal/jc.md)
-- [emuto](terminal/emuto.md)
-- [homebrew guide](terminal/brew.md)
-- [curl](terminal/curl.md)
-- [cargo](terminal/cargo.md)
 - [ssh](terminal/ssh.md)
 
 ## networking
@@ -58,4 +48,4 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 ## concepts
 - [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 - [straw man](concepts/straw-man.md)
-- [stop usrbinenv shebang](concepts/stop-usrbinenv.md)
+- [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.md)
