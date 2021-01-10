@@ -35,12 +35,10 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 - [bash color codes](terminal/bash_color_codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
 - [bash script conditions](terminal/bash_script_conditions.md)
-- [git](terminal/git.md)
-- [pass](terminal/pass.md)
-- [youtube-dl](terminal/youtube-dl.md)
+- [pass guide](terminal/pass.md)
 - [crontab guide](terminal/crontab-guide.md)
-- [rsync](terminal/rsync.md)
-- [ssh](terminal/ssh.md)
+- [rsync guide](terminal/rsync.md)
+- [ssh guide](terminal/ssh.md)
 
 ## networking
 - [termux remote](networking/remote-termux.md)
