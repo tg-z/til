@@ -1,6 +1,6 @@
 https://www.iana.org/assignments/media-types/media-types.xhtml
 
-> 
+>
 
 # Media Types
 Media Types
@@ -36,11 +36,11 @@ Note
 \[[RFC2046](https://www.iana.org/go/rfc2046)\] specifies that Media Types (formerly known as MIME types) and Media
 Subtypes will be assigned and listed by the IANA.
 
-Procedures for registering Media Types can be found in \[[RFC6838](https://www.iana.org/go/rfc6838)\], \[[RFC4289](https://www.iana.org/go/rfc4289)\], 
-and \[[RFC6657](https://www.iana.org/go/rfc6657)\]. Additional procedures for registering media types for transfer via 
+Procedures for registering Media Types can be found in \[[RFC6838](https://www.iana.org/go/rfc6838)\], \[[RFC4289](https://www.iana.org/go/rfc4289)\],
+and \[[RFC6657](https://www.iana.org/go/rfc6657)\]. Additional procedures for registering media types for transfer via
 Real-time Transport Protocol (RTP) can be found in \[[RFC4855](https://www.iana.org/go/rfc4855)\].
 
-The following is the list of Directories of Content Types and Subtypes. If you wish to 
+The following is the list of Directories of Content Types and Subtypes. If you wish to
 register a Media Type with the IANA, please see the following for the online application:
 
 \[[Application for registration of Media Types](http://www.iana.org/form/media-types)\]
@@ -51,9 +51,9 @@ Provisional Standard Media Type Registry: \[[IANA registry _provisional-standard
 
 Available Formats
 
-[![](/_img/icons/text-xml.png)  
-XML](media-types.xml) [![](/_img/icons/text-html.png)  
-HTML](media-types.xhtml) [![](/_img/icons/text-plain.png)  
+[![](/_img/icons/text-xml.png)
+XML](media-types.xml) [![](/_img/icons/text-html.png)
+HTML](media-types.xhtml) [![](/_img/icons/text-plain.png)
 Plain text](media-types.txt)
 
 **Registries included below**
@@ -74,7 +74,7 @@ application
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](application.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -8564,7 +8564,7 @@ audio
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](audio.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -9516,7 +9516,7 @@ font
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](font.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -9572,9 +9572,9 @@ IANA. For more information see\[[RFC4735](https://www.iana.org/go/rfc4735)\].
 
 Note: The occurrence of an 'example' media type as a media type outside
 of examples, e.g. in a Content-Type header, is an error and should be
-reported to the implementor.\[[RFC2045](https://www.iana.org/go/rfc2045)\]\[[RFC2046](https://www.iana.org/go/rfc2046)\] 
-specifies that Content Types, Content Subtypes, Character Sets, Access 
-Types, and conversion values for MIME mail will be assigned and listed 
+reported to the implementor.\[[RFC2045](https://www.iana.org/go/rfc2045)\]\[[RFC2046](https://www.iana.org/go/rfc2046)\]
+specifies that Content Types, Content Subtypes, Character Sets, Access
+Types, and conversion values for MIME mail will be assigned and listed
 by the IANA.
 
 Note
@@ -9588,7 +9588,7 @@ image
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](image.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -10052,7 +10052,7 @@ message
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](message.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -10186,7 +10186,7 @@ model
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](model.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -10370,7 +10370,7 @@ multipart
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](multipart.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -10482,7 +10482,7 @@ See \[[RFC6657](https://www.iana.org/go/rfc6657)\] for information about 'charse
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](text.csv)
 
 Name ![](../_support/sort_none.gif)
@@ -10992,7 +10992,7 @@ video
 
 Available Formats
 
-[![](/_img/icons/text-csv.png)  
+[![](/_img/icons/text-csv.png)
 CSV](video.csv)
 
 Name ![](../_support/sort_none.gif)

@@ -1,7 +1,7 @@
 # A collapsible section containing markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
@@ -12,7 +12,7 @@
 # A collapsible section containing code
 <details>
   <summary>Click to expand!</summary>
-  
+
   ```javascript
     function whatIsLove() {
       console.log('Baby Don't hurt me. Don't hurt me');
@@ -26,7 +26,7 @@
 # A collapsible section with markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list

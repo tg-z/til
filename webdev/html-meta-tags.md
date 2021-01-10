@@ -1,4 +1,4 @@
-## html meta tags 
+## html meta tags
 [https://gist.github.com/lancejpollard](https://gist.github.com/lancejpollard/1978404)
 
 > Complete List of HTML Meta Tags
@@ -96,7 +96,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 ``` html
 <meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
 ```
-    
+
 #### Apple Meta Tags
 
 ``` html
@@ -162,7 +162,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
 ```
-    
+
 ## HTML Link Tags
 
 ``` html
