@@ -35,15 +35,12 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 - [bash color codes](terminal/bash_color_codes.md)
 - [weechat quick start guide](terminal/weechat-quick-start.md)
 - [bash script conditions](terminal/bash_script_conditions.md)
-- [pass guide](terminal/pass.md)
 - [crontab guide](terminal/crontab-guide.md)
-- [rsync guide](terminal/rsync.md)
-- [ssh guide](terminal/ssh.md)
 
 ## networking
 - [termux remote](networking/remote-termux.md)
 
 ## concepts
-- [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 - [straw man](concepts/straw-man.md)
+- [reductio ad absurdum](concepts/reductio-ad-absurdum.md)
 - [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.md)
