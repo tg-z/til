@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -74,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +105,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "vim/vim-cli.md",
     "index.md",
+    "vim/vim-cli.md",
     "vim/replacing-words.md",
     "vim/remove-trailing-whitespace.md",
     "concepts/stop-usrbinenv.md",
