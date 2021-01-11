@@ -1,3 +1,7 @@
+---
+tags:
+- webdev
+---
 # A collapsible section containing markdown
 <details>
   <summary>Click to expand!</summary>

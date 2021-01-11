@@ -1,3 +1,7 @@
+---
+tags:
+- concepts
+---
 # straw man
 > https://simplicable.com/new/straw-man
 

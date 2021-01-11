@@ -1,3 +1,7 @@
+---
+tags:
+- webdev
+---
 ## html meta tags
 [https://gist.github.com/lancejpollard](https://gist.github.com/lancejpollard/1978404)
 

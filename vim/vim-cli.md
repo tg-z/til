@@ -1,3 +1,7 @@
+---
+tags:
+- vim
+---
 # vim cli
 https://vim.help/
 

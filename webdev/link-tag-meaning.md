@@ -1,16 +1,11 @@
-<div id="title">
-
-[LinkTagMeaning](http://intertwingly.net/wiki/pie/LinkTagMeaning?action=fullsearch&value=LinkTagMeaning&literal=1&case=1&context=40)
 ---
-</div>
-
-
-<div id="content" lang="en" dir="ltr">
+tags:
+- webdev
+---
+# Link Tag Meaning[^LinkTagMeaning]
 
 The link tag can have different meanings based on the value of its 'rel'
 and 'type' attributes.
-
-<div>
 
 |                  |                                   |             |                                                                                                                                                                                                                                                                                             |
 |------------------|-----------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -27,9 +22,9 @@ and 'type' attributes.
 | related          | text/html or application/atom+xml | Entry       | Point to related Web Pages or related Atom Entries (1)                                                                                                                                                                                                                                      |
 | source           | any                               | Entry\|Feed | Points to the original source of the entry or feed, based on <a href="http://dublincore.org/documents/dces/" class="external"><img src="/moin-1.2.1/wiki/htdocs/classic/img/moin-www.png" width="11" height="11" alt="[WWW]" />DCES.source</a>                                              |
 | via              | any                               | Entry       | Points to the "next" intermediary "source" of a link, comment, or discussion ultimately from or about the "source" link                                                                                                                                                                     |
-| in-reply-to      | any                               | Entry       | Points to atom:entry this entry responds to. (see [PaceLinkParent](/wiki/pie/PaceLinkParent))                                                                                                                                                                                               |
-| transform.input  | target type                       | Feed        | Points to an XSLT stylesheet - see [TransformLinkTag](/wiki/pie/TransformLinkTag)                                                                                                                                                                                                           |
-| transform.output | target type                       | Feed        | Points to an XSLT stylesheet - see [TransformLinkTag](/wiki/pie/TransformLinkTag)                                                                                                                                                                                                           |
+| in-reply-to      | any                               | Entry       | Points to atom:entry this entry responds to. (see [PaceLinkParent](http://intertwingly.net/wiki/pie/PaceLinkParent))                                                                                                                                                                                               |
+| transform.input  | target type                       | Feed        | Points to an XSLT stylesheet - see [TransformLinkTag](http://intertwingly.net/wiki/pie/TransformLinkTag)                                                                                                                                                                                                           |
+| transform.output | target type                       | Feed        | Points to an XSLT stylesheet - see [TransformLinkTag](http://intertwingly.net/wiki/pie/TransformLinkTag)                                                                                                                                                                                                           |
 | icon             | image/\*                          | Feed        | Points to an icon for use for the site, typically 16x16 pixels - as per <a href="http://msdn.microsoft.com/workshop/Author/dhtml/howto/ShortcutIcon.asp" class="external"><img src="/moin-1.2.1/wiki/htdocs/classic/img/moin-www.png" width="11" height="11" alt="[WWW]" />IE favicons</a>. |
 | logo             | image/\*                          | Feed        | Points to a logo for use for the site, typically 88x31 pixels - meant to be compatible with the &lt;image&gt; element in RSS 2.0                                                                                                                                                            |
 | service.post     | application/atom+xml              | Feed        | Points to the PostURI for creating a new entry.                                                                                                                                                                                                                                             |
@@ -37,7 +32,6 @@ and 'type' attributes.
 | service.feed     | application/atom+xml              | Entry\|Feed | Points to the FeedURI for this site.                                                                                                                                                                                                                                                        |
 | service.edit     | application/atom+xml              | Entry       | Points to the EditURI for this Entry.                                                                                                                                                                                                                                                       |
 
-</div>
 
 **Rel** - The value of the 'rel' attibute.
 
@@ -47,8 +41,6 @@ and 'type' attributes.
 
 Please add or change the values above as needed.
 
-------------------------------------------------------------------------
-
 The 'start' relationship with semantics of "Points to the Atom feed you
 would subscribe to with an aggregator" is redundant, since the
 &lt;feed&gt; element MUST have a &lt;link&gt; with 'alternate', which
@@ -56,27 +48,17 @@ has the same meaning.
 
 Additionally, some spiderbots treat 'start' as meaning the place to
 start crawling from, not the place to poll looking for updates. Perhaps
-it would be better to use 'bookmark'?
+it would be better to use 'bookmark'? [^LinkElement]
 
-------------------------------------------------------------------------
+Very cool for Spiders, necessary for LinksLog. [^LinksLog]
 
-See also : [LinkElement](http://intertwingly.net/wiki/pie/LinkElement)
+## Notes
+
+It has been suggested to replace 'alternate', currently being specified as the permalink for the ENTRY, with 'bookmark', which seems semantically more appropriate.[^AnneVanKesteren]
+'about' has been suggested as well, which is a link that points to a URI, which is the subject of the post (needed for Link logs).
 
 
-------------------------------------------------------------------------
-
-[1.](http://intertwingly.net/wiki/pie/LinksLog) Very cool for Spiders, necessary for [LinksLog](http://intertwingly.net/wiki/pie/LinksLog)
-
-#### Notes
-
-[AnneVanKesteren](http://intertwingly.net/wiki/pie/AnneVanKesteren) It has been suggested
-to replace 'alternate', currently being specified as the permalink for
-the ENTRY, with 'bookmark', which seems semantically more appropriate.
-'about' has been suggested as well, which is a link that points to a
-URI, which is the subject of the post (needed for Link logs).
-
-</div>
-
-<div id="footer">
-
-</div>
+[^LinkTagMeaning]: http://intertwingly.net/wiki/pie/LinkTagMeaning?action=fullsearch&value=LinkTagMeaning&literal=1&case=1&context=40
+[^LinksLog]: http://intertwingly.net/wiki/pie/LinksLog
+[^LinkElement]: http://intertwingly.net/wiki/pie/LinkElemen
+[^AnneVanKesteren]: http://intertwingly.net/wiki/pie/AnneVanKesteren

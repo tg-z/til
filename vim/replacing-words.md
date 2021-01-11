@@ -1,3 +1,7 @@
+---
+tags:
+- vim
+---
 # replacing words in vim
 https://vim.help/12-clever-tricks#12.7
 

@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "index.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +37,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -56,7 +58,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 126.01219177246094
+    "width": 176
   },
   "right": {
     "id": "cf97c9d2587cca12",
@@ -72,7 +74,22 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f4ee0b2e244cc3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -80,18 +97,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.61337280273438
+    "width": 168,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "vim/vim-cli.md",
     "index.md",
-    "vim/remove-trailing-whitespace.md",
     "vim/replacing-words.md",
-    "webdev/surfingkeys.md",
-    "webdev/markdown-details-collapsible.md",
-    "vim/Untitled.md",
-    "terminal/Untitled.md",
-    "terminal/asciinema.md",
-    "terminal/bash-color-codes.md",
-    "terminal/brew.md"
+    "vim/remove-trailing-whitespace.md",
+    "concepts/stop-usrbinenv.md",
+    "concepts/straw-man.md",
+    "terminal/crontab-guide.md",
+    "terminal/bash_script_conditions.md",
+    "terminal/bash_color_codes.md",
+    "networking/remote-termux.md"
   ]
 }

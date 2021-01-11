@@ -1,3 +1,7 @@
+---
+tags:
+- terminal
+---
 # crontab guide
 
 ```sh

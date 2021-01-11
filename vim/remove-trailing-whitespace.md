@@ -1,3 +1,7 @@
+---
+tags:
+- vim
+---
 # removing trailing whitespaces in vim
 https://vim.help/12-clever-tricks#12.7
 
@@ -11,7 +15,7 @@ Some people find spaces and tabs at the end of a line useless, wasteful, and ugl
 
 `:%s/\s\+$//`
 
-The line range `%` is used, thus this works on the whole file. The pattern that the `:substitute` command matches with is `\s\+$`. This finds white space characters (\\s), 1 or more of them (\\+), before the end-of-line ($). Later will be explained how you write patterns like this, see “[Search commands and patterns](/27-search-commands-and-patterns)”.
+The line range `%` is used, thus this works on the whole file. The pattern that the `:substitute` command matches with is `\s\+$`. This finds white space characters (\\s), 1 or more of them (\\+), before the end-of-line ($). Later will be explained how you write patterns like this, see “[Search commands and patterns](https://vim.help/27-search-commands-and-patterns)”.
 
 The `to` part of the substitute command is empty: `//`. Thus it replaces with nothing, effectively deleting the matched white space.
 

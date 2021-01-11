@@ -1,3 +1,7 @@
+---
+tags:
+- concepts
+---
 # don't use `#!/usr/bin/env`
 
 today i joined [rwxrob's](https://rwx.gg) twitch livestream and joined his discord server. i found his twitch over two weeks ago and he quickly became one of my favorite streamers in the science and technology twitch category. he never fails to impress me in his humility and attitude towards beginners. i like how opinionated he is and he makes it clear that he has no problem with changing his mind as he learns more.
