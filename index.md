@@ -21,12 +21,12 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 
 ```mermaid
 graph TD
-    A[til] -->|14 notes| C{tags}
-    C -->|3 notes| D[vim]
-    C -->|5 notes| E[webdev]
-    C -->|2 notes| F[concepts]
-    C -->|1 note| G[networking]
-    C -->| 3 notes| H[terminal]
+    A[til] -->|14 notes| B{tags}
+    B -->|3 notes| D[vim]
+    B -->|5 notes| E[webdev]
+    B -->|2 notes| F[concepts]
+    B -->|1 note| G[networking]
+    B -->| 3 notes| H[terminal]
 ```
 
 ## vim
