@@ -21,7 +21,7 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 
 ```mermaid
 graph TD
-B --> C{til}
+    A[til] -->|14 notes| C{tags}
     C -->|3 notes| D[vim]
     C -->|5 notes| E[webdev]
     C -->|2 notes| F[concepts]
