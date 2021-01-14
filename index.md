@@ -19,6 +19,16 @@ welcome to my "today i learned" repository - it's filled with short entries of i
   <a href="#concepts">concepts</a><br>
 </p>
 
+```mermaid
+graph TD
+B --> C{til}
+    C -->|3 notes| D[vim]
+    C -->|5 notes| E[webdev]
+    C -->|2 notes| F[concepts]
+    C -->|1 note| G[networking]
+    C -->| 3 notes| H[terminal]
+```
+
 ## vim
 - [vim commandline](vim/vim-cli.md)
 - [remove trailing whitespace in vim](vim/remove-trailing-whitespace.md)
