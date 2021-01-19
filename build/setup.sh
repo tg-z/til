@@ -36,6 +36,7 @@ all() {
 
 if [ $# -eq 0 ]; then
   echo "usage: $0 <function name>"
+  echo "functions: deps, md-to-html, gen, html, all"
   exit 1
 fi
 
