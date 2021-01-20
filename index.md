@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <h1 align="center"><code>$ til</code></h1>
 
 <p align="center">
