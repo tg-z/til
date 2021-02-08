@@ -1,0 +1,247 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"> <title>$ til</title> <meta name="description" content="short entries of information for my own reference & retention 📓"> <link rel="stylesheet" href="style.css"> <style type="text/css"> * {box-sizing: border-box; } 
+    body,html{margin: 3vw 5vw;max-width: 900px;}
+    body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16px; line-height: 1.5; word-wrap: break-word; } 
+    p,blockquote,ul,ol,dl,table,pre{margin-top: 0; margin-bottom: 16px; } 
+    blockquote{margin-right: 0; margin-left: 0; padding: 0 1em; color: #777; border-left: 0.25em solid #ddd; } 
+    a {color: blue; text-decoration: none; }
+    .markdown-body{padding: 15px; } 
+    .markdown-body>*:first-child {margin-top: 0 !important; } 
+    h1, h2, h3, h4, h5, h6{margin-top: 24px; margin-bottom: 16px; font-weight: 600; line-height: 1.25; } 
+    h1{padding-bottom: 0.3em; font-size: 2em; border-bottom: 1px solid #eee; } 
+    h2{padding-bottom: 0.3em; font-size: 1.5em; border-bottom: 1px solid #eee; } 
+    ul, ol {padding-left: 1.2em; } 
+    li>p {margin-top: 16px; } 
+    del{color: #727272; } 
+    footer {
+  border-top: 0.1rem dashed;
+  padding-top: 1em;
+  font-size: 0.75em;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5em;
+  --text-opacity: 1;
+  color: #718096;
+}
+    a.github-corner {position: fixed; top: 0; right: 0; } 
+    .github-corner svg{fill:#e1e1e1;color:#000;position:absolute;top:0;border:0;right:0;z-index:99;width:4.375rem;height:4.375rem}
+    .github-corner:hover .octo-arm{-webkit-animation:octocat-wave 560ms ease-in-out;animation:octocat-wave 560ms ease-in-out}
+    @-webkit-keyframes octocat-wave{
+        0%,100%{-webkit-transform:rotate(0);transform:rotate(0)}
+        20%,60%{-webkit-transform:rotate(-25deg);transform:rotate(-25deg)}
+        40%,80%{-webkit-transform:rotate(10deg);transform:rotate(10deg)}
+    }
+    @keyframes octocat-wave{
+        0%,100%{-webkit-transform:rotate(0);transform:rotate(0)}
+        20%,60%{-webkit-transform:rotate(-25deg);transform:rotate(-25deg)}
+        40%,80%{-webkit-transform:rotate(10deg);transform:rotate(10deg)}
+    }
+    div.mermaid {
+        /* font-family: 'trebuchet ms', verdana, arial; */
+        font-family: 'Courier New', Courier, monospace !important;
+      }
+    pre {
+	display: block;
+    }
+    code, tt {
+	padding: 0;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 0;
+	font-size: 85%;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 3px;
+    }
+   pre code {
+	 padding: 0;
+   }
+   table {
+	 max-width: 100%;
+         border: 1px solid;
+         margin-top: 0;
+   }
+   th {
+	 margin: 0px;
+	 padding: 0.25em;
+	 text-decoration: bold;
+	 border-bottom: 1px solid;
+         <!-- background-color: #DDDDDD; -->
+   }
+   tr {
+	  border: 1px solid;
+   }
+   a.headerlink {
+    text-decoration: none;
+    color: lightgrey;
+}
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink {
+    color: #c60f0f
+}
+a.headerlink:hover {
+    background-color: #c60f0f;
+    color: white;
+}
+
+td,
+th {
+    vertical-align: center;
+}
+
+th.right {
+    text-align: center;
+}
+
+th.left {
+    text-align: center;
+}
+
+th.center {
+    text-align: center;
+}
+td {
+    padding: 2px;
+}
+td.right {
+    text-align: right;
+}
+
+td.left {
+    text-align: left;
+}
+
+td.center {
+    text-align: center;
+} </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script>hljs.initHighlightingOnLoad();</script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewBox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script>mermaid.initialize({startOnLoad:true});</script> <article class="markdown-body"> <h1 id="html-meta-tags">html meta tags</h1><p><a href="https://gist.github.com/lancejpollard/1978404">https://gist.github.com/lancejpollard</a></p> <blockquote> <p>Complete List of HTML Meta Tags</p> </blockquote> <h2 id="basic-html-meta-tags">Basic HTML Meta Tags</h2><pre><code class="language-html">&lt;meta name=&quot;keywords&quot; content=&quot;your, tags&quot;/&gt;
+&lt;meta name=&quot;description&quot; content=&quot;150 words&quot;/&gt;
+&lt;meta name=&quot;subject&quot; content=&quot;your website&#39;s subject&quot;&gt;
+&lt;meta name=&quot;copyright&quot;content=&quot;company name&quot;&gt;
+&lt;meta name=&quot;language&quot; content=&quot;ES&quot;&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt;
+&lt;meta name=&quot;revised&quot; content=&quot;Sunday, July 18th, 2010, 5:15 pm&quot; /&gt;
+&lt;meta name=&quot;abstract&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;topic&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;summary&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;Classification&quot; content=&quot;Business&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;name, email@hotmail.com&quot;&gt;
+&lt;meta name=&quot;designer&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;copyright&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;reply-to&quot; content=&quot;email@hotmail.com&quot;&gt;
+&lt;meta name=&quot;owner&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;url&quot; content=&quot;http://www.websiteaddrress.com&quot;&gt;
+&lt;meta name=&quot;identifier-URL&quot; content=&quot;http://www.websiteaddress.com&quot;&gt;
+&lt;meta name=&quot;directory&quot; content=&quot;submission&quot;&gt;
+&lt;meta name=&quot;category&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;coverage&quot; content=&quot;Worldwide&quot;&gt;
+&lt;meta name=&quot;distribution&quot; content=&quot;Global&quot;&gt;
+&lt;meta name=&quot;rating&quot; content=&quot;General&quot;&gt;
+&lt;meta name=&quot;revisit-after&quot; content=&quot;7 days&quot;&gt;
+&lt;meta http-equiv=&quot;Expires&quot; content=&quot;0&quot;&gt;
+&lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;
+&lt;meta http-equiv=&quot;Cache-Control&quot; content=&quot;no-cache&quot;&gt;
+</code></pre> <h2 id="opengraph-meta-tags">OpenGraph Meta Tags</h2><pre><code class="language-html">&lt;meta name=&quot;og:title&quot; content=&quot;The Rock&quot;/&gt;
+&lt;meta name=&quot;og:type&quot; content=&quot;movie&quot;/&gt;
+&lt;meta name=&quot;og:url&quot; content=&quot;http://www.imdb.com/title/tt0117500/&quot;/&gt;
+&lt;meta name=&quot;og:image&quot; content=&quot;http://ia.media-imdb.com/rock.jpg&quot;/&gt;
+&lt;meta name=&quot;og:site_name&quot; content=&quot;IMDb&quot;/&gt;
+&lt;meta name=&quot;og:description&quot; content=&quot;A group of U.S. Marines, under command of...&quot;/&gt;
+
+&lt;meta name=&quot;fb:page_id&quot; content=&quot;43929265776&quot; /&gt;
+
+&lt;meta name=&quot;og:email&quot; content=&quot;me@example.com&quot;/&gt;
+&lt;meta name=&quot;og:phone_number&quot; content=&quot;650-123-4567&quot;/&gt;
+&lt;meta name=&quot;og:fax_number&quot; content=&quot;+1-415-123-4567&quot;/&gt;
+
+&lt;meta name=&quot;og:latitude&quot; content=&quot;37.416343&quot;/&gt;
+&lt;meta name=&quot;og:longitude&quot; content=&quot;-122.153013&quot;/&gt;
+&lt;meta name=&quot;og:street-address&quot; content=&quot;1601 S California Ave&quot;/&gt;
+&lt;meta name=&quot;og:locality&quot; content=&quot;Palo Alto&quot;/&gt;
+&lt;meta name=&quot;og:region&quot; content=&quot;CA&quot;/&gt;
+&lt;meta name=&quot;og:postal-code&quot; content=&quot;94304&quot;/&gt;
+&lt;meta name=&quot;og:country-name&quot; content=&quot;USA&quot;/&gt;
+
+&lt;meta property=&quot;og:type&quot; content=&quot;game.achievement&quot;/&gt;
+&lt;meta property=&quot;og:points&quot; content=&quot;POINTS_FOR_ACHIEVEMENT&quot;/&gt;
+
+&lt;meta property=&quot;og:video&quot; content=&quot;http://example.com/awesome.swf&quot; /&gt;
+&lt;meta property=&quot;og:video:height&quot; content=&quot;640&quot; /&gt;
+&lt;meta property=&quot;og:video:width&quot; content=&quot;385&quot; /&gt;
+&lt;meta property=&quot;og:video:type&quot; content=&quot;application/x-shockwave-flash&quot; /&gt;
+&lt;meta property=&quot;og:video&quot; content=&quot;http://example.com/html5.mp4&quot; /&gt;
+&lt;meta property=&quot;og:video:type&quot; content=&quot;video/mp4&quot; /&gt;
+&lt;meta property=&quot;og:video&quot; content=&quot;http://example.com/fallback.vid&quot; /&gt;
+&lt;meta property=&quot;og:video:type&quot; content=&quot;text/html&quot; /&gt;
+
+&lt;meta property=&quot;og:audio&quot; content=&quot;http://example.com/amazing.mp3&quot; /&gt;
+&lt;meta property=&quot;og:audio:title&quot; content=&quot;Amazing Song&quot; /&gt;
+&lt;meta property=&quot;og:audio:artist&quot; content=&quot;Amazing Band&quot; /&gt;
+&lt;meta property=&quot;og:audio:album&quot; content=&quot;Amazing Album&quot; /&gt;
+&lt;meta property=&quot;og:audio:type&quot; content=&quot;application/mp3&quot; /&gt;
+</code></pre> <h2 id="create-custom-meta-tags">Create Custom Meta Tags</h2><p>Use custom meta tags to store data that you need in javascript, instead of hard-coding that data into your javascript. I store my Google Analytics code in meta tags. Here&#39;s some examples:</p> <pre><code class="language-html">&lt;meta name=&quot;google-analytics&quot; content=&quot;1-AHFKALJ&quot;/&gt;
+&lt;meta name=&quot;disqus&quot; content=&quot;abcdefg&quot;/&gt;
+&lt;meta name=&quot;uservoice&quot; content=&quot;asdfasdf&quot;/&gt;
+&lt;meta name=&quot;mixpanel&quot; content=&quot;asdfasdf&quot;/&gt;
+</code></pre> <h2 id="company-service-meta-tags">Company/Service Meta Tags</h2><h4 id="claimid">ClaimID</h4><pre><code class="language-html">&lt;meta name=&quot;microid&quot; content=&quot;mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7&quot; /&gt;
+</code></pre> <h4 id="apple-meta-tags">Apple Meta Tags</h4><pre><code class="language-html">&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+&lt;meta content=&quot;yes&quot; name=&quot;apple-touch-fullscreen&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width = 320, initial-scale = 2.3, user-scalable = no&quot;&gt;
+</code></pre> <h4 id="internet-explorer-meta-tags">Internet Explorer Meta Tags</h4><pre><code class="language-html">&lt;meta http-equiv=&quot;Page-Enter&quot; content=&quot;RevealTrans(Duration=2.0,Transition=2)&quot; /&gt;
+&lt;meta http-equiv=&quot;Page-Exit&quot; content=&quot;RevealTrans(Duration=3.0,Transition=12)&quot; /&gt;
+&lt;meta name=&quot;mssmarttagspreventparsing&quot; content=&quot;true&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;chrome=1&quot;&gt;
+&lt;meta name=&quot;msapplication-starturl&quot; content=&quot;http://blog.reybango.com/about/&quot;/&gt;
+&lt;meta name=&quot;msapplication-window&quot; content=&quot;width=800;height=600&quot;/&gt;
+&lt;meta name=&quot;msapplication-navbutton-color&quot; content=&quot;red&quot;/&gt;
+&lt;meta name=&quot;application-name&quot; content=&quot;Rey Bango Front-end Developer&quot;/&gt;
+&lt;meta name=&quot;msapplication-tooltip&quot; content=&quot;Launch Rey Bango&#39;s Blog&quot;/&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=About;action-uri=/about/;icon-uri=/images/about.ico&quot; /&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico&quot; /&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico&quot; /&gt;
+&lt;meta name=&quot;msapplication-task&quot; content=&quot;name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/images/favicon.ico&quot; /&gt;
+</code></pre> <h4 id="tweetmeme-meta-tags">TweetMeme Meta Tags</h4><pre><code class="language-html">&lt;meta name=&quot;tweetmeme-title&quot; content=&quot;Retweet Button Explained&quot; /&gt;
+</code></pre> <h4 id="blog-catalog-meta-tags">Blog Catalog Meta Tags</h4><pre><code class="language-html">&lt;meta name=&quot;blogcatalog&quot; /&gt;
+</code></pre> <h4 id="rails-meta-tags">Rails Meta Tags</h4><pre><code class="language-html">&lt;meta name=&quot;csrf-param&quot; content=&quot;authenticity_token&quot;/&gt;
+&lt;meta name=&quot;csrf-token&quot; content=&quot;/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc=&quot;/&gt;
+</code></pre> <h4 id="apple-tags">Apple Tags</h4><pre><code class="language-html">&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot;&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot;&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+&lt;meta name= &quot;viewport&quot; content = &quot;width = 320, initial-scale = 2.3, user-scalable = no&quot;&gt;
+&lt;meta name= &quot;viewport&quot; content = &quot;width = device-width&quot;&gt;
+&lt;meta name = &quot;viewport&quot; content = &quot;initial-scale = 1.0&quot;&gt;
+&lt;meta name = &quot;viewport&quot; content = &quot;initial-scale = 2.3, user-scalable = no&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;touch-icon-iphone.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;72x72&quot; href=&quot;touch-icon-ipad.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;114x114&quot; href=&quot;touch-icon-iphone4.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-startup-image&quot; href=&quot;/startup.png&quot;&gt;
+
+&lt;link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;/apple-touch-icon.png&quot; /&gt;
+</code></pre> <h2 id="html-link-tags">HTML Link Tags</h2><pre><code class="language-html">&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;RSS&quot; href=&quot;http://feeds.feedburner.com/martini&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/ico&quot; href=&quot;/favicon.ico&quot; /&gt;
+&lt;link rel=&quot;fluid-icon&quot; type=&quot;image/png&quot; href=&quot;/fluid-icon.png&quot; /&gt;
+&lt;link rel=&quot;me&quot; type=&quot;text/html&quot; href=&quot;http://google.com/profiles/thenextweb&quot;/&gt;
+&lt;link rel=&#39;shortlink&#39; href=&#39;http://blog.unto.net/?p=353&#39; /&gt;
+&lt;link rel=&#39;archives&#39; title=&#39;May 2003&#39; href=&#39;http://blog.unto.net/2003/05/&#39; /&gt;
+&lt;link rel=&#39;index&#39; title=&#39;DeWitt Clinton&#39; href=&#39;http://blog.unto.net/&#39; /&gt;
+&lt;link rel=&#39;start&#39; title=&#39;Pattern Recognition 1&#39; href=&#39;http://blog.unto.net/photos/pattern_recognition_1_about/&#39; /&gt;
+&lt;link rel=&#39;prev&#39; title=&#39;OpenSearch and OpenID?  A sure way to get my attention.&#39; href=&#39;http://blog.unto.net/opensearch/opensearch-and-openid-a-sure-way-to-get-my-attention/&#39; /&gt;
+&lt;link rel=&#39;next&#39; title=&#39;Not blog&#39; href=&#39;http://blog.unto.net/meta/not-blog/&#39; /&gt;
+&lt;link rel=&quot;search&quot; href=&quot;/search.xml&quot; type=&quot;application/opensearchdescription+xml&quot; title=&quot;Viatropos&quot; /&gt;
+
+&lt;link rel=&quot;self&quot; type=&quot;application/atom+xml&quot; href=&quot;http://www.syfyportal.com/atomFeed.php?page=3&quot;/&gt;
+&lt;link rel=&quot;first&quot; href=&quot;http://www.syfyportal.com/atomFeed.php&quot;/&gt;
+&lt;link rel=&quot;next&quot; href=&quot;http://www.syfyportal.com/atomFeed.php?page=4&quot;/&gt;
+&lt;link rel=&quot;previous&quot; href=&quot;http://www.syfyportal.com/atomFeed.php?page=2&quot;/&gt;
+&lt;link rel=&quot;last&quot; href=&quot;http://www.syfyportal.com/atomFeed.php?page=147&quot;/&gt;
+
+&lt;link rel=&#39;shortlink&#39; href=&#39;http://smallbiztrends.com/?p=43625&#39; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://smallbiztrends.com/2010/06/9-things-to-do-before-entering-social-media.html&quot; /&gt;
+&lt;link rel=&quot;EditURI&quot; type=&quot;application/rsd+xml&quot; title=&quot;RSD&quot; href=&quot;http://smallbiztrends.com/xmlrpc.php?rsd&quot; /&gt;
+&lt;link rel=&quot;pingback&quot; href=&quot;http://smallbiztrends.com/xmlrpc.php&quot; /&gt;
+&lt;link media=&quot;only screen and (max-device-width: 480px)&quot; href=&quot;http://wordpress.org/style/iphone.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; /&gt;
+</code></pre> <h2 id="other-resources">Other Resources</h2><ul> <li><a href="http://www.seoconsultants.com/meta-tags/dublin/">Dublic Core Meta Tags</a></li> <li><a href="http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html">Apple Meta Tags</a></li> <li><a href="http://opengraphprotocol.org/">OpenGraph Meta Tags</a></li> <li><a href="http://intertwingly.net/wiki/pie/LinkTagMeaning">Link Tag Meaning</a></li> <li><a href="http://www.html5rocks.com/">Google Chrome HTML5 Tags</a></li> </ul> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html> 
