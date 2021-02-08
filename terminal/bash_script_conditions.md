@@ -1,7 +1,3 @@
----
-tags:
-- terminal
----
 # bash script conditions
 > https://dev.to/zakiarsyad/bash-script-conditions-1ano
 

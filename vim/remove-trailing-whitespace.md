@@ -1,7 +1,3 @@
----
-tags:
-- vim
----
 # removing trailing whitespaces in vim
 https://vim.help/12-clever-tricks#12.7
 

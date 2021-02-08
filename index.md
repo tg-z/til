@@ -1,6 +1,3 @@
----
-layout: default
----
 <h1 align="center"><code>$ til</code></h1>
 
 <p align="center">
@@ -22,36 +19,28 @@ welcome to my "today i learned" repository - it's filled with short entries of i
   <a href="#concepts">concepts</a><br>
 </p>
 
-```mermaid
-graph TD
-    A[til] -->|14 notes| B{tags}
-    B -->|3 notes| D[vim]
-    B -->|5 notes| E[webdev]
-    B -->|2 notes| F[concepts]
-    B -->|1 note| G[networking]
-    B -->| 3 notes| H[terminal]
-```
+![](img/mermaid-diagram.svg)
 
 ## vim
-- [vim commandline](vim/vim-cli.md)
-- [remove trailing whitespace in vim](vim/remove-trailing-whitespace.md)
-- [replace words in vim](vim/replacing-words.md)
+- [vim commandline](vim/vim-cli.html)
+- [remove trailing whitespace in vim](vim/remove-trailing-whitespace.html)
+- [replace words in vim](vim/replacing-words.html)
 
 ## webdev
-- [every html meta tag](webdev/html-meta-tags.md)
-- [collapsible sections in markdown](webdev/markdown-details-collapsible.md)
-- [python shell](webdev/python-shell.md)
-- [git change branch master to main](webdev/git-master-to-main.md)
-- [common mime types](webdev/common-mime-types.md)
+- [every html meta tag](webdev/html-meta-tags.html)
+- [collapsible sections in markdown](webdev/markdown-details-collapsible.html)
+- [python shell](webdev/python-shell.html)
+- [git change branch master to main](webdev/git-master-to-main.html)
+- [common mime types](webdev/common-mime-types.html)
 
 ## terminal
-- [bash color codes](terminal/bash_color_codes.md)
-- [bash script conditions](terminal/bash_script_conditions.md)
-- [crontab guide](terminal/crontab-guide.md)
+- [bash color codes](terminal/bash_color_codes.html)
+- [bash script conditions](terminal/bash_script_conditions.html)
+- [crontab guide](terminal/crontab-guide.html)
 
 ## networking
-- [termux remote](networking/remote-termux.md)
+- [termux remote](networking/remote-termux.html)
 
 ## concepts
-- [straw man](concepts/straw-man.md)
-- [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.md)
+- [straw man](concepts/straw-man.html)
+- [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.html)

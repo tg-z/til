@@ -1,8 +1,4 @@
----
-tags:
-- webdev
----
-## html meta tags
+# html meta tags
 [https://gist.github.com/lancejpollard](https://gist.github.com/lancejpollard/1978404)
 
 > Complete List of HTML Meta Tags

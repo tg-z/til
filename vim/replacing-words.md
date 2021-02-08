@@ -1,7 +1,3 @@
----
-tags:
-- vim
----
 # replacing words in vim
 https://vim.help/12-clever-tricks#12.7
 
@@ -26,7 +22,7 @@ Obviously, this still goes wrong on `fourteen`. Use `\>` to match the end of a w
 
 If you are programming, you might want to replace `four` in comments, but not in the code. Since this is difficult to specify, add the `c` flag to have the substitute command prompt you for each replacement:
 
-:%s/\\<four\\>/4/gc
+    :%s/\\<four\\>/4/gc
 
 ### Replacing in several files
 
@@ -34,7 +30,7 @@ Suppose you want to replace a word in more than one file. You could edit each fi
 
 Let's assume you have a directory with C++ files, all ending in `.cpp`. There is a function called `GetResp` that you want to rename to `GetAnswer`.
 
-vim \*.cpp
+    vim \*.cpp
 
 Start Vim, defining the argument list to contain all the C++ files. You are now in the first file.
 
@@ -68,6 +64,6 @@ When playing back a recorded sequence, an error stops the execution. Therefore, 
 
 There is one catch: If one of the .cpp files does not contain the word `GetResp`, you will get an error and replacing will stop. To avoid this, add the `e` flag to the substitute command:
 
-    :%s/\<GetResp\>/GetAnswer/ge
+`:%s/\<GetResp\>/GetAnswer/ge`
 
 The `e` flag tells `:substitute` that not finding a match is not an error.

@@ -1,7 +1,3 @@
----
-tags:
-- webdev
----
 # common mime types
 
 > Here is a list of MIME types, associated by type of documents, ordered by their common extensions.

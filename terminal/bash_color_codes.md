@@ -1,7 +1,3 @@
----
-tags:
-- terminal
----
 # bash color codes
 
 ```bash

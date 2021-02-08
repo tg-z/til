@@ -1,8 +1,5 @@
----
-tags:
-- networking
----
 # Remote Access - Termux Wiki
+https://wiki.termux.com/wiki/Remote_Access
 
 Termux is capable of accessing remote devices by using some common tools. It is also possible to turn a device running Termux into remote controlled server.
 

@@ -1,7 +1,3 @@
----
-tags:
-- webdev
----
 # Link Tag Meaning[^LinkTagMeaning]
 
 The link tag can have different meanings based on the value of its 'rel'
