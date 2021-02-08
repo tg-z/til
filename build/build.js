@@ -9,7 +9,7 @@ const markdownParse = require("@textlint/markdown-to-ast").parse;
 const colors = require('colors-cli/toxic');
 const pkg = require('../package.json');
 
-const deployDir = path.resolve(process.cwd(), 'doc');
+const deployDir = path.resolve(process.cwd(), 'docs');
 const templatePath = path.resolve(process.cwd(), 'build', 'template.ejs');
 const cssPath = path.resolve(process.cwd(), 'build', 'style.css');
 const imgPath = path.resolve(process.cwd(), 'img');
