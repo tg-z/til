@@ -1,4 +1,5 @@
 # A collapsible section containing markdown
+
 <details>
   <summary>Click to expand!</summary>
 
@@ -38,7 +39,7 @@
 # special cases
 
 <details>
-<summary>:heart: thx</summary>
+<summary>thx</summary>
 
 ![ty](https://camo.githubusercontent.com/4fd95715cff5db944532897c286e526780e90660/68747470733a2f2f6d65646961332e67697068792e636f6d2f6d656469612f53396f4e4743314534325654324a527973762f67697068792e676966)
 </details>
