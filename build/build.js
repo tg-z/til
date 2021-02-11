@@ -13,6 +13,7 @@ const deployDir = path.resolve(process.cwd(), 'docs');
 const templatePath = path.resolve(process.cwd(), 'build', 'template.ejs');
 const cssPath = path.resolve(process.cwd(), 'build', 'style.css');
 const imgPath = path.resolve(process.cwd(), 'img');
+const faviconPath = path.resolve(process.cwd(), 'build', 'favicon.ico');
 
 mkdirs(deployDir)
   .then(dir => emptyDir(dir))
@@ -81,6 +82,8 @@ mkdirs(deployDir)
   ))
   .then(() => FS.copySync(cssPath, path.resolve(deployDir, 'style.css') ))
   .then(() => FS.copySync(imgPath, path.resolve(deployDir, 'img') ))
+  .then(() => FS.copySync(faviconPath, path.resolve(deployDir, 'favicon.ico') ))
+
   // .then(() => PushGhpage(deployDir, {
   //   repo: 'git@github.com:jaywcjlove/awesome-mac.git',
   //   message: `MacOSX software list update, Compiler generation page. ${new Date()}`
