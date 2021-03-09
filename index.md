@@ -14,10 +14,9 @@
       <div class="title">vim command-line</div>
     </a>
     <span class="post-tags" align="right">
-      <a class="post-tag tag-active" href="tags.html#vim">#vim</a>
-      <a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
-      <a class="post-tag tag-inactive" href="tags.html">#cli</a>
-    </span>
+    <a class="post-tag tag-active" href="tags.html#vim">#vim</a>
+    <a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
+    <a class="post-tag tag-inactive" href="tags.html">#cli</a></span>
   </div>
 
   <div class="post">
@@ -25,22 +24,25 @@
     <div class="title">remove trailing whitespace in vim</div>
     </a>
     <span class="post-tags">
-      <a class="post-tag tag-active" style="margin-left:auto" href="tags.html#vim">#vim</a>
-    </span>
+    <a class="post-tag tag-active" style="margin-left:auto" href="tags.html#vim">#vim</a></span>
    </div>
   <div class="post">
     <a class="post-link" href="posts/replacing-words-in-vim.html">
     <div class="title">replace words in vim</div>
     </a>
     <span class="post-tags" align="right">
-      <a class="post-tag tag-active" href="tags.html#vim">#vim</a>
-    </span>
+    <a class="post-tag tag-active" href="tags.html#vim">#vim</a></span>
+   </div>
+  <div class="post">
+    <a class="post-link" href="posts/html-meta-tags.html">
+    <div class="title">every html meta tag</div>
+    </a>
+    <span class="post-tags">
+    <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a></span>
    </div>
 
 
 <!--
-    <a href="posts/replacing-words-in-vim.html">replace words in vim</a>
-    <a href="posts/html-meta-tags.html">every html meta tag</a>
     <a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a>
     <a href="posts/git-master-to-main.html">git change branch master to main</a>
     <a href="posts/common-mime-types.html">common mime types</a>
@@ -50,6 +52,6 @@
     <a href="posts/remote-termux.html">termux remote</a>
     <a href="posts/straw-man.html">straw man</a>
     <a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a>
-    <a href="posts/python-shell.html">python shell</a> 
+    <a href="posts/python-shell.html">python shell</a>
 -->
 </div>
