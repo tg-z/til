@@ -26,6 +26,7 @@
     <span class="post-tags">
     <a class="post-tag tag-active" style="margin-left:auto" href="tags.html#vim">#vim</a></span>
    </div>
+
   <div class="post">
     <a class="post-link" href="posts/replacing-words-in-vim.html">
     <div class="title">replace words in vim</div>
@@ -33,6 +34,7 @@
     <span class="post-tags" align="right">
     <a class="post-tag tag-active" href="tags.html#vim">#vim</a></span>
    </div>
+
   <div class="post">
     <a class="post-link" href="posts/html-meta-tags.html">
     <div class="title">every html meta tag</div>
