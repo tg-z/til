@@ -1,84 +1,55 @@
 <nav id="topnav">
-<a href="./">home</a>
-<a href="tags.html">tags</a>
-<a href="https://github.com/tg-z/til/issues" style="margin-left:auto"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
-<a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
-<a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
-<img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"/></a>
+  <a href="index.html">home</a>
+  <a href="tags.html">tags</a>
+  <a href="https://github.com/tg-z/til/issues" style="margin-left:auto"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
+  <a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
+  <a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
+    <img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"/></a>
 </nav>
-
 <p>welcome to my "today i learned" repository - it's filled with short entries of information for my own reference & retention. 📓</p>
 
-![](static/tag-graph.svg)
-
 <div class="post-list">
-<div class="post">
-<a class="post-link" href="posts/vim-cli.html">
-<div class="title">vim command-line</div>
-<!-- <div class="summary">Exploiting javascript to reverse engineer cognitive score</div> -->
-</a>
-<time datetime="2019-03-06T00:00:00">06 March 2019</time>
-<span class="post-tags">
-<a class="post-tag tag-active" href="tags.html#vim">#vim</a>
-<a class="post-tag tag-inactive" href="tags.html">#cli</a>
-</span>
-</div>
+  <div class="post">
+    <a class="post-link" href="posts/vim-cli.html">
+      <div class="title">vim command-line</div>
+    </a>
+    <span class="post-tags" align="right">
+      <a class="post-tag tag-active" href="tags.html#vim">#vim</a>
+      <a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
+      <a class="post-tag tag-inactive" href="tags.html">#cli</a>
+    </span>
+  </div>
 
-<ul>
-  <li>
-    <a href="posts/vim-cli.html">vim commandline</a>
-  </li>
-  <li>
-    <a href="posts/remove-trailing-whitespace.html">remove trailing whitespace in vim</a>
-  </li>
-  <li>
+  <div class="post">
+    <a class="post-link" href="posts/remove-trailing-whitespace.html">
+    <div class="title">remove trailing whitespace in vim</div>
+    </a>
+    <span class="post-tags">
+      <a class="post-tag tag-active" style="margin-left:auto" href="tags.html#vim">#vim</a>
+    </span>
+   </div>
+  <div class="post">
+    <a class="post-link" href="posts/replacing-words-in-vim.html">
+    <div class="title">replace words in vim</div>
+    </a>
+    <span class="post-tags" align="right">
+      <a class="post-tag tag-active" href="tags.html#vim">#vim</a>
+    </span>
+   </div>
+
+
+<!--
     <a href="posts/replacing-words-in-vim.html">replace words in vim</a>
-  </li>
-</ul>
-<h2 id="webdev">webdev</h2>
-<ul>
-  <li>
     <a href="posts/html-meta-tags.html">every html meta tag</a>
-  </li>
-  <li>
     <a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a>
-  </li>
-  <li>
     <a href="posts/git-master-to-main.html">git change branch master to main</a>
-  </li>
-  <li>
     <a href="posts/common-mime-types.html">common mime types</a>
-  </li>
-</ul>
-<h2 id="terminal">terminal</h2>
-<ul>
-  <li>
     <a href="posts/bash-color-codes.html">bash color codes</a>
-  </li>
-  <li>
     <a href="posts/bash-script-conditions.html">bash script conditions</a>
-  </li>
-  <li>
     <a href="posts/crontab-guide.html">crontab guide</a>
-  </li>
-</ul>
-<h2 id="networking">networking</h2>
-<ul>
-  <li>
     <a href="posts/remote-termux.html">termux remote</a>
-  </li>
-</ul>
-<h2 id="concepts">concepts</h2>
-<ul>
-  <li>
     <a href="posts/straw-man.html">straw man</a>
-  </li>
-  <li>
     <a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a>
-  </li>
-</ul>
-<h2 id="python">python</h2>
-<ul>
-  <li><a href="posts/python-shell.html">python shell</a></li>
-</ul>
+    <a href="posts/python-shell.html">python shell</a> 
+-->
 </div>

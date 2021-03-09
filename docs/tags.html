@@ -1,34 +1,116 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"> <title>$ til</title> <meta name="description" content="short entries of information for my own reference & retention 📓"> <link rel="shortcut icon" type="image/x-icon" href="https://tg-z.github.io/til/favicon.ico"> <link rel="stylesheet" href="style.css"> <style type="text/css"> * {box-sizing: border-box; } 
-    body,html{margin: 3vw 5vw;max-width: 900px;}
-    body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16px; line-height: 1.5; word-wrap: break-word; } 
-    p,blockquote,ul,ol,dl,table,pre{margin-top: 0; margin-bottom: 16px; } 
-    blockquote{margin-right: 0; margin-left: 0; padding: 0 1em; color: #777; border-left: 0.25em solid #ddd; } 
-    a {color: blue; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .markdown-body{padding: 15px; } 
-    .markdown-body>*:first-child {margin-top: 0 !important; } 
-    h1, h2, h3, h4, h5, h6{margin-top: 24px; margin-bottom: 16px; font-weight: 600; line-height: 1.25; } 
-    h1{padding-bottom: 0.3em; font-size: 2em; border-bottom: 1px solid #eee; } 
-    h2{padding-bottom: 0.3em; font-size: 1.5em; border-bottom: 1px solid #eee; } 
-    ul, ol {padding-left: 1.2em; } 
-    li>p {margin-top: 16px; }
-    del{color: #727272; }
-    img { max-width: 100%; text-align: center; align: center;}
-    .tags p {
-      padding-top: 1em;
-      padding-bottom: 2px;
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 0.5em;
-      font-size: 0.75em;
-      color: #718096;
-      --text-opacity: 1;
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"> <title>$ til</title> <meta name="description" content="short entries of information for my own reference & retention 📓"> <link rel="shortcut icon" type="image/x-icon" href="https://tg-z.github.io/til/favicon.ico"> <link rel="stylesheet" href="style.css"> <style type="text/css"> * {
+  box-sizing: border-box;
 }
-   .tags a {
-     <!-- color: #8FBC8F; -->
-     color: #EA63A6;
+
+body,
+html {
+  margin: 1vw 3vw;
+  max-width: 900px;
 }
-    footer {
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+blockquote {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0 1em;
+  color: #777;
+  border-left: 0.25em solid #ddd;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body {
+  padding: 15px;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eee;
+}
+
+ul,
+ol {
+  padding-left: 1.2em;
+}
+
+li > p {
+  margin-top: 16px;
+}
+
+del {
+  color: #727272;
+}
+
+img {
+  max-width: 100%;
+  text-align: center;
+  align: center;
+}
+
+.tags p {
+  padding-top: 1em;
+  padding-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5em;
+  font-size: 0.75em;
+  color: #718096;
+  --text-opacity: 1;
+}
+
+.tags a {
+  <!-- color: #8FBC8F;
+  --> color: #EA63A6;
+}
+
+footer {
   border-top: 0.1rem dashed;
   padding-top: 1em;
   font-size: 0.75em;
@@ -38,173 +120,195 @@
   --text-opacity: 1;
   color: #718096;
 }
-    a.github-corner {position: fixed; top: 0; right: 0; } 
-    .github-corner svg{fill:#e1e1e1;color:#000;position:absolute;top:0;border:0;right:0;z-index:99;width:4.375rem;height:4.375rem}
-    .github-corner:hover .octo-arm{-webkit-animation:octocat-wave 560ms ease-in-out;animation:octocat-wave 560ms ease-in-out}
-    @-webkit-keyframes octocat-wave{
-        0%,100%{-webkit-transform:rotate(0);transform:rotate(0)}
-        20%,60%{-webkit-transform:rotate(-25deg);transform:rotate(-25deg)}
-        40%,80%{-webkit-transform:rotate(10deg);transform:rotate(10deg)}
-    }
-    @keyframes octocat-wave{
-        0%,100%{-webkit-transform:rotate(0);transform:rotate(0)}
-        20%,60%{-webkit-transform:rotate(-25deg);transform:rotate(-25deg)}
-        40%,80%{-webkit-transform:rotate(10deg);transform:rotate(10deg)}
-    }
-    div.mermaid {
-        /* font-family: 'trebuchet ms', verdana, arial; */
-        font-family: 'Courier New', Courier, monospace !important;
-      }
-    pre {
-	display: block;
-    }
-    code, tt {
-	padding: 1px 1px 1px 1px;
-	margin: 0;
-	font-size: 85%;
-	background-color: rgba(0,0,0,0.04);
-        <!-- background-color: #F3F3F3; -->
-	border-radius: 3px;
-   }
-   pre code {
-	 padding: 0;
-   }
-   table {
-	 max-width: 100%;
-         border: 1px solid;
-         margin-top: 0;
-   }
-   th {
-	 margin: 0px;
-	 padding: 0.25em;
-	 text-decoration: bold;
-	 border-bottom: 1px solid;
-         <!-- background-color: #DDDDDD; -->
-   }
-   tr {
-	  border: 1px solid;
-   }
-   a.headerlink {
-    text-decoration: none;
-    color: lightgrey;
+
+a.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
-h1:hover > a.headerlink,
-h2:hover > a.headerlink,
-h3:hover > a.headerlink,
-h4:hover > a.headerlink,
-h5:hover > a.headerlink,
-h6:hover > a.headerlink {
-    color: #c60f0f
+
+.github-corner svg {
+  fill: #e1e1e1;
+  color: #000;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+  z-index: 99;
+  width: 4.375rem;
+  height: 4.375rem
+}
+
+.github-corner:hover .octo-arm {
+  -webkit-animation: octocat-wave 560ms ease-in-out;
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@-webkit-keyframes octocat-wave {
+  0,
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  
+20%,
+  60% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg)
+  }
+  
+40%,
+  80% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg)
+  }
+}
+
+@keyframes octocat-wave {
+  0,
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+  }
+  
+20%,
+  60% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg)
+  }
+  
+40%,
+  80% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg)
+  }
+}
+
+div.mermaid {
+  /* font-family: 'trebuchet ms', verdana, arial; */
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+pre {
+  display: block;
+}
+
+code,
+tt {
+  padding: 1px;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  <!-- background-color: #F3F3F3;
+  --> border-radius: 3px;
+}
+
+pre code {
+  padding: 0;
+}
+
+table {
+  max-width: 100%;
+  border: 1px solid;
+  margin-top: 0;
+}
+
+th {
+  margin: 0;
+  padding: 0.25em;
+  text-decoration: bold;
+  border-bottom: 1px solid;
+  <!-- background-color: #DDDDDD; -->
+}
+
+tr {
+  border: 1px solid;
 }
 a.headerlink:hover {
-    background-color: #c60f0f;
-    color: white;
+  background-color: #c60f0f;
+  color: white;
 }
-
 td,
 th {
-    vertical-align: center;
+  vertical-align: center;
 }
-
 th.right {
-    text-align: center;
+  text-align: center;
 }
-
 th.left {
-    text-align: center;
+  text-align: center;
 }
-
 th.center {
-    text-align: center;
+  text-align: center;
 }
+
 td {
-    padding: 2px;
+  padding: 2px;
 }
+
 td.right {
-    text-align: right;
+  text-align: right;
 }
-
 td.left {
-    text-align: left;
+  text-align: left;
+}
+td.center {
+  text-align: center;
 }
 
-td.center {
-    text-align: center;
-}
 .important {
-    padding-bottom: 0.3em;
-    font-size: 2em;
-    border-bottom: 0.1rem dashed #718096;
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 0.1rem dashed #718096;
 }
+
 .posts-list {
+  --width: 60rem;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
 .posts-list .post {
-    display: grid;
-    grid-template-columns: 70% 30%;
-
-    border: 10px solid transparent;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border: 10px solid transparent;
 }
-
-/* alternating colors */
-.posts-list .post:nth-child(2n+1) {
-    background: #eee;
-}
-.posts-list .post:nth-child(2n+2) {
-    background: #fff;
-}
-/* */
-
-
 .posts-list .post .post-link {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: span 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: span 2;
 }
-
 .posts-list .post a.post-link {
-    text-decoration: none;
+  text-decoration: none;
+  margin-left:auto;
 }
-
 .posts-list .post .summary {
-    padding-left: 0.5em;
-
-    font-size: 0.9em;
-    color: #555;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+  color: #555;
 }
-
 .posts-list .post time {
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    grid-row-start: span 2; /* TODO not sure about this one */
-
-    text-align: right;
-
-    white-space: nowrap; /* prevent breakin date up */
-    font-size: 0.8em;
-    color: #555;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: span 2; /* TODO not sure about this one */
+  text-align: right;
+  white-space: nowrap; /* prevent breakin date up */
+  font-size: 0.8em;
+  color: #555;
 }
-
-
 .posts-list .post .post-tags {
-    /* ok, that's def nice; that way it ened up taking less vertical space on phone */
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-    justify-self: stretch;
-
-    text-align: right;
+  /* ok, that's def nice; that way it ened up taking less vertical space on phone */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: stretch;
+  text-align: right;
 }
-
 .posts-list .pos .post-tags {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
+
 #topnav {
   font-weight: 600;
   /* just to separate from the content */
@@ -218,51 +322,47 @@ td.center {
   flex-wrap: wrap; /* default is nowrap; makes it responsive */
   column-gap: 0.3em;
 }
+
 #topnav > a {
   color: black; /* default links are blue */
   /* text-transform: lowercase; */
 }
+
 #topnav > a:hover {
   color: blue; /* hmm, not sure about this.. a bit misleading, usually unvisited are blue */
   text-decoration: none;
 }
-.post-tag + .post-tag {
-    margin-left: 0.5em;
-}
 
+.post-tag + .post-tag {
+  margin-left: 0.5em;
+}
 .post-tag {
   font-size: 0.95em;
   font-family: "Lucida Console", Monaco, monospace;
-
   /* https://stackoverflow.com/a/12362315/706389
      somewhat hacky way to prevent breaking tags on hyphens...
    */
   white-space: nowrap;
 }
-
 .tag-active {
-  color: #a51;
+  /* color: #EA63A6; pink */
+  color: blue;
   font-weight: bold;
 }
-
 .tag-inactive {
   color: black;
 }
-
 #post-title h1 {
   /* default margin is too large */
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
-
 #post-title .summary {
   /* ???  */
-  -webkit-margin-before:0em;
-  -webkit-margin-after:0em;
-
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
   color: #a9a9a9;
   font-size: 1.5em;
 }
-
 #post-footer time {
   color: #555;
-} </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script>hljs.initHighlightingOnLoad();</script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewBox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script>mermaid.initialize({startOnLoad:true});</script> <article class="markdown-body"> <h1 class="important">Glossary of tags</h1> <p align="center"> <a href="#vim">#vim</a> • <a href="#webdev">#webdev</a> • <a href="#terminal">#terminal</a> • <a href="#networking">#networking</a> • <a href="#concepts">#concepts</a> • <a href="#python">#python</a><br> </p> <p><img src="static/tag-graph.svg" alt=""></p> <h2 id="vim">vim</h2><ul> <li><a href="posts/vim-cli.html">vim commandline</a></li> <li><a href="posts/remove-trailing-whitespace.html">remove trailing whitespace in vim</a></li> <li><a href="posts/replacing-words-in-vim.html">replace words in vim</a></li> </ul> <h2 id="webdev">webdev</h2><ul> <li><a href="posts/html-meta-tags.html">every html meta tag</a></li> <li><a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a></li> <li><a href="posts/git-master-to-main.html">git change branch master to main</a></li> <li><a href="posts/common-mime-types.html">common mime types</a></li> </ul> <h2 id="terminal">terminal</h2><ul> <li><a href="posts/bash-color-codes.html">bash color codes</a></li> <li><a href="posts/bash-script-conditions.html">bash script conditions</a></li> <li><a href="posts/crontab-guide.html">crontab guide</a></li> </ul> <h2 id="networking">networking</h2><ul> <li><a href="posts/remote-termux.html">termux remote</a></li> </ul> <h2 id="concepts">concepts</h2><ul> <li><a href="posts/straw-man.html">straw man</a></li> <li><a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a></li> </ul> <h2 id="python">python</h2><ul> <li><a href="posts/python-shell.html">python shell</a></li> </ul> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html> 
+} </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script> hljs.initHighlightingOnLoad(); </script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewbox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script> mermaid.initialize({startOnLoad: true}); </script> <article class="markdown-body"> <nav id="topnav"> <a href="./">home</a> <a href="tags.html">tags</a> <a href="https://github.com/tg-z/til/issues" style="margin-left:auto"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a> <a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a> <a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors"> <img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"></a> </nav> <h1 class="important">Glossary of tags</h1> <p align="center"> <a href="#vim">#vim</a> • <a href="#webdev">#webdev</a> • <a href="#terminal">#terminal</a> • <a href="#networking">#networking</a> • <a href="#concepts">#concepts</a> • <a href="#python">#python</a><br> </p> <p><img src="static/tag-graph.svg" alt=""></p> <h2 id="vim">vim</h2><ul> <li><a href="posts/vim-cli.html">vim commandline</a></li> <li><a href="posts/remove-trailing-whitespace.html">remove trailing whitespace in vim</a></li> <li><a href="posts/replacing-words-in-vim.html">replace words in vim</a></li> </ul> <h2 id="webdev">webdev</h2><ul> <li><a href="posts/html-meta-tags.html">every html meta tag</a></li> <li><a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a></li> <li><a href="posts/git-master-to-main.html">git change branch master to main</a></li> <li><a href="posts/common-mime-types.html">common mime types</a></li> </ul> <h2 id="terminal">terminal</h2><ul> <li><a href="posts/bash-color-codes.html">bash color codes</a></li> <li><a href="posts/bash-script-conditions.html">bash script conditions</a></li> <li><a href="posts/crontab-guide.html">crontab guide</a></li> </ul> <h2 id="networking">networking</h2><ul> <li><a href="posts/remote-termux.html">termux remote</a></li> </ul> <h2 id="concepts">concepts</h2><ul> <li><a href="posts/straw-man.html">straw man</a></li> <li><a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a></li> </ul> <h2 id="python">python</h2><ul> <li><a href="posts/python-shell.html">python shell</a></li> </ul> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html>
