@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "graph": "dot -Tsvg static/*.dot > static/$(basename ${d//.*/}).svg",
+    "graph": "dot -Tsvg static/tag-graph.dot > static/tag-graph.svg",
     "build": "node build/build.js"
   },
   "repository": {
