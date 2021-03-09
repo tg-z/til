@@ -84,3 +84,7 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 |`.3g2`|3GPP2 audio/video container|`video/3gpp2` `audio/3gpp2` if it doesn't contain video|
 | `.7z` | 7-zip archive | `application/x-7z-compressed` |
 
+
+<div class="tags">
+<p>tags: <a href="../tags.html#webdev">#webdev</a></p>
+</div>

@@ -101,3 +101,7 @@ ENDCOLOR="\e[m"
 # OR
 # echo -e "${On_Green} hi${Color_Off} man"
 ```
+
+<div class="tags">
+<p>tags: <a href="../tags.html#terminal">#terminal</a></p>
+</div>

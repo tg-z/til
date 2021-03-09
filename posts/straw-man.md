@@ -39,3 +39,7 @@ The term straw man first appears in 1585-95 to refer to something that is insubs
 
 1. Random House Webster's Unabridged Dictionary, 1986 Universal Dictionary of the English Language, 1897
 2. [Anna, Mar. "6 Examples of a Straw Man." Simplicable, August 08 2018. Web.](https://simplicable.com/new/straw-man)
+
+<div class="tags">
+<p>tags: <a href="../tags.html#concepts">#concepts</a></p>
+</div>

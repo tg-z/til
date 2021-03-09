@@ -17,3 +17,7 @@ git push origin :master main
 # allows for pushing changes to remote
 git branch --set-upstream-to=origin/main main
 ```
+
+<div class="tags">
+<p>tags: <a href="../tags.html#webdev">#webdev</a></p>
+</div>

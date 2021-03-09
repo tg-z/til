@@ -255,3 +255,10 @@ You may want to see man page (\`man rsync\`) to learn more about it's usage.
 [Accessing Termux from the Internet](https://wiki.termux.com/wiki/Bypassing_NAT "Bypassing NAT")
 
 [Connecting to Termux with SSH over USB](https://glow.li/technology/2016/9/20/access-termux-via-usb/)
+
+<div class="tags">
+<p>tags: <a href="../tags.html#python">#python</a></p>
+</div>
+<div class="tags">
+<p>tags: <a href="../tags.html#networking">#networking</a></p>
+</div>

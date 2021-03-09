@@ -71,3 +71,7 @@ for using a collapse-able list-item:
 **NB:** Make sure you have an **empty line** after the closing `</summary>` tag, otherwise the markdown/code blocks won't show correctly.
 
 **NB**: Make sure you have an **empty line** after the closing `</details>` tag if you have multiple collapsible sections.
+
+<div class="tags">
+<p>tags: <a href="../tags.html#webdev">#webdev</a></p>
+</div>

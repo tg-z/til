@@ -155,3 +155,7 @@ __Resources__: Easycron FAQ [^faq], crontab guru [^cronguru], A Beginners Guide 
 [^faq]: https://www.easycron.com/faq/What-cron-expression-does-easycron-support
 [^cronguru]: https://crontab.guru/
 
+
+<div class="tags">
+<p>tags: <a href="../tags.html#terminal">#terminal</a></p>
+</div>

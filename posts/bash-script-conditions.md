@@ -116,3 +116,7 @@ We also can quickly test a condition like this
 # using ||
 [ $foo == "bar" ] || echo true
 ```
+
+<div class="tags">
+<p>tags: <a href="../tags.html#terminal">#terminal</a></p>
+</div>

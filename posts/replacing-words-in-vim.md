@@ -67,3 +67,7 @@ There is one catch: If one of the .cpp files does not contain the word `GetResp`
 `:%s/\<GetResp\>/GetAnswer/ge`
 
 The `e` flag tells `:substitute` that not finding a match is not an error.
+
+<div class="tags">
+<p>tags: <a href="../tags.html#vim">#vim</a></p>
+</div>

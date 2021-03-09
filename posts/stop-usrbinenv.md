@@ -9,3 +9,7 @@ __rwxrob__:
 
 1. [Don't Use #!/usr/bin/env](https://rwx.gg/advice/dont/env/)
 2. [Discord Comment](https://discord.com/channels/669337241478365203/703036530926813324/717822630480183396)
+
+<div class="tags">
+<p>tags: <a href="../tags.html#concepts">#concepts</a></p>
+</div>

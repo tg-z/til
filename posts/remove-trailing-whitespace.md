@@ -20,3 +20,7 @@ Another wasteful use of spaces is placing them before a tab. Often these can be 
 `/`
 
 You cannot see it, but there is a space before a tab in this command. Thus it's `/<Space><Tab>`. Now use `x` to delete the space and check that the amount of white space doesn't change. You might have to insert a tab if it does change. Type `n` to find the next match. Repeat this until no more matches can be found.
+
+<div class="tags">
+<p>tags: <a href="../tags.html#vim">#vim</a></p>
+</div>
