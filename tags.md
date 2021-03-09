@@ -1,5 +1,7 @@
 <h1 class="important">Glossary of tags</h1>
 
+![](static/tag-graph.svg)
+
 <p align="center">
   <a href="#vim">#vim</a> •
   <a href="#webdev">#webdev</a> •
@@ -8,8 +10,6 @@
   <a href="#concepts">#concepts</a> •
   <a href="#python">#python</a><br>
 </p>
-
-![](static/tag-graph.svg)
 
 ## vim
 - [vim commandline](posts/vim-cli.html)

@@ -52,3 +52,6 @@ graph TD
 ## concepts
 - [straw man](concepts/straw-man.md)
 - [stop #!/usr/bin/env in scripts](concepts/stop-usrbinenv.md)
+
+## python
+- [python shell](posts/python-shell.md)
