@@ -202,3 +202,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <div class="tags">
 <p>tags: <a href="../tags.html#webdev">#webdev</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

@@ -159,3 +159,7 @@ __Resources__: Easycron FAQ [^faq], crontab guru [^cronguru], A Beginners Guide 
 <div class="tags">
 <p>tags: <a href="../tags.html#terminal">#terminal</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

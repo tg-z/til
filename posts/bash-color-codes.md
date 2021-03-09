@@ -105,3 +105,7 @@ ENDCOLOR="\e[m"
 <div class="tags">
 <p>tags: <a href="../tags.html#terminal">#terminal</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

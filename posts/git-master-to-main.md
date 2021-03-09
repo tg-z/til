@@ -21,3 +21,7 @@ git branch --set-upstream-to=origin/main main
 <div class="tags">
 <p>tags: <a href="../tags.html#webdev">#webdev</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

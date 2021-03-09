@@ -71,3 +71,7 @@ The `e` flag tells `:substitute` that not finding a match is not an error.
 <div class="tags">
 <p>tags: <a href="../tags.html#vim">#vim</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

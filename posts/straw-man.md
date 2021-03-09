@@ -43,3 +43,7 @@ The term straw man first appears in 1585-95 to refer to something that is insubs
 <div class="tags">
 <p>tags: <a href="../tags.html#concepts">#concepts</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

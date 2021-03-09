@@ -24,3 +24,7 @@ You cannot see it, but there is a space before a tab in this command. Thus it's 
 <div class="tags">
 <p>tags: <a href="../tags.html#vim">#vim</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

@@ -13,3 +13,7 @@ in order to get html to embed, you must do:
 <div class="tags">
 <p>tags: <a href="../tags.html#python">#python</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

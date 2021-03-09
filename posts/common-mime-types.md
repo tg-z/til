@@ -88,3 +88,7 @@ IANA is the official registry of MIME media types and maintains a [list of all t
 <div class="tags">
 <p>tags: <a href="../tags.html#webdev">#webdev</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>

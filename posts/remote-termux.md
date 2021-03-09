@@ -262,3 +262,7 @@ You may want to see man page (\`man rsync\`) to learn more about it's usage.
 <div class="tags">
 <p>tags: <a href="../tags.html#networking">#networking</a></p>
 </div>
+
+<div class="tags" align="center">
+<a href="../index.html">⭠</a>
+</div>
