@@ -1,3 +1,4 @@
+<title>Glossary of tags</title>
 <h1 class="important">Glossary of tags</h1>
 
 <p align="center">
