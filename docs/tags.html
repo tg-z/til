@@ -135,4 +135,134 @@ td.center {
     padding-bottom: 0.3em;
     font-size: 2em;
     border-bottom: 0.1rem dashed #718096;
+}
+.posts-list {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.posts-list .post {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    border: 10px solid transparent;
+}
+
+/* alternating colors */
+.posts-list .post:nth-child(2n+1) {
+    background: #eee;
+}
+.posts-list .post:nth-child(2n+2) {
+    background: #fff;
+}
+/* */
+
+
+.posts-list .post .post-link {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: span 2;
+}
+
+.posts-list .post a.post-link {
+    text-decoration: none;
+}
+
+.posts-list .post .summary {
+    padding-left: 0.5em;
+
+    font-size: 0.9em;
+    color: #555;
+}
+
+.posts-list .post time {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: span 2; /* TODO not sure about this one */
+
+    text-align: right;
+
+    white-space: nowrap; /* prevent breakin date up */
+    font-size: 0.8em;
+    color: #555;
+}
+
+
+.posts-list .post .post-tags {
+    /* ok, that's def nice; that way it ened up taking less vertical space on phone */
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    justify-self: stretch;
+
+    text-align: right;
+}
+
+.posts-list .pos .post-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#topnav {
+  font-weight: 600;
+  /* just to separate from the content */
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  margin-bottom: 16px;
+  line-height: 1.25;
+  border-bottom: 0.1rem dashed #718096;
+  font-size: 2em;
+  display: flex;
+  flex-wrap: wrap; /* default is nowrap; makes it responsive */
+  column-gap: 0.3em;
+}
+#topnav > a {
+  color: black; /* default links are blue */
+  /* text-transform: lowercase; */
+}
+#topnav > a:hover {
+  color: blue; /* hmm, not sure about this.. a bit misleading, usually unvisited are blue */
+  text-decoration: none;
+}
+.post-tag + .post-tag {
+    margin-left: 0.5em;
+}
+
+.post-tag {
+  font-size: 0.95em;
+  font-family: "Lucida Console", Monaco, monospace;
+
+  /* https://stackoverflow.com/a/12362315/706389
+     somewhat hacky way to prevent breaking tags on hyphens...
+   */
+  white-space: nowrap;
+}
+
+.tag-active {
+  color: #a51;
+  font-weight: bold;
+}
+
+.tag-inactive {
+  color: black;
+}
+
+#post-title h1 {
+  /* default margin is too large */
+  margin-bottom: 0em;
+}
+
+#post-title .summary {
+  /* ???  */
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+
+  color: #a9a9a9;
+  font-size: 1.5em;
+}
+
+#post-footer time {
+  color: #555;
 } </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script>hljs.initHighlightingOnLoad();</script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewBox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script>mermaid.initialize({startOnLoad:true});</script> <article class="markdown-body"> <h1 class="important">Glossary of tags</h1> <p align="center"> <a href="#vim">#vim</a> • <a href="#webdev">#webdev</a> • <a href="#terminal">#terminal</a> • <a href="#networking">#networking</a> • <a href="#concepts">#concepts</a> • <a href="#python">#python</a><br> </p> <p><img src="static/tag-graph.svg" alt=""></p> <h2 id="vim">vim</h2><ul> <li><a href="posts/vim-cli.html">vim commandline</a></li> <li><a href="posts/remove-trailing-whitespace.html">remove trailing whitespace in vim</a></li> <li><a href="posts/replacing-words-in-vim.html">replace words in vim</a></li> </ul> <h2 id="webdev">webdev</h2><ul> <li><a href="posts/html-meta-tags.html">every html meta tag</a></li> <li><a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a></li> <li><a href="posts/git-master-to-main.html">git change branch master to main</a></li> <li><a href="posts/common-mime-types.html">common mime types</a></li> </ul> <h2 id="terminal">terminal</h2><ul> <li><a href="posts/bash-color-codes.html">bash color codes</a></li> <li><a href="posts/bash-script-conditions.html">bash script conditions</a></li> <li><a href="posts/crontab-guide.html">crontab guide</a></li> </ul> <h2 id="networking">networking</h2><ul> <li><a href="posts/remote-termux.html">termux remote</a></li> </ul> <h2 id="concepts">concepts</h2><ul> <li><a href="posts/straw-man.html">straw man</a></li> <li><a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a></li> </ul> <h2 id="python">python</h2><ul> <li><a href="posts/python-shell.html">python shell</a></li> </ul> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html> 

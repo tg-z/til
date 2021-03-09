@@ -1,23 +1,29 @@
-<h1 align="center"><code>$ til</code></h1>
-
-<p align="center">
-<a href="https://github.com/tg-z/til/issues"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
+<nav id="topnav">
+<a href="./">home</a>
+<a href="tags.html">tags</a>
+<a href="https://github.com/tg-z/til/issues" style="margin-left:auto"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
 <a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
 <a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
 <img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"/></a>
-</p>
+</nav>
 
-<p align="center">
-welcome to my "today i learned" repository - it's filled with short entries of information for my own reference & retention 📓
-</p>
-
-<p align="center">
-  <a href="tags.html">tags</a><br>
-</p>
+<p>welcome to my "today i learned" repository - it's filled with short entries of information for my own reference & retention. 📓</p>
 
 ![](static/tag-graph.svg)
 
-<h2 id="vim">vim</h2>
+<div class="post-list">
+<div class="post">
+<a class="post-link" href="posts/vim-cli.html">
+<div class="title">vim command-line</div>
+<!-- <div class="summary">Exploiting javascript to reverse engineer cognitive score</div> -->
+</a>
+<time datetime="2019-03-06T00:00:00">06 March 2019</time>
+<span class="post-tags">
+<a class="post-tag tag-active" href="tags.html#vim">#vim</a>
+<a class="post-tag tag-inactive" href="tags.html">#cli</a>
+</span>
+</div>
+
 <ul>
   <li>
     <a href="posts/vim-cli.html">vim commandline</a>
@@ -75,3 +81,4 @@ welcome to my "today i learned" repository - it's filled with short entries of i
 <ul>
   <li><a href="posts/python-shell.html">python shell</a></li>
 </ul>
+</div>

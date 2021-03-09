@@ -146,7 +146,136 @@ td.center {
     font-size: 2em;
     border-bottom: 0.1rem dashed #718096;
 }
-    
+.posts-list {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.posts-list .post {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    border: 10px solid transparent;
+}
+
+/* alternating colors */
+.posts-list .post:nth-child(2n+1) {
+    background: #eee;
+}
+.posts-list .post:nth-child(2n+2) {
+    background: #fff;
+}
+/* */
+
+
+.posts-list .post .post-link {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: span 2;
+}
+
+.posts-list .post a.post-link {
+    text-decoration: none;
+}
+
+.posts-list .post .summary {
+    padding-left: 0.5em;
+
+    font-size: 0.9em;
+    color: #555;
+}
+
+.posts-list .post time {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: span 2; /* TODO not sure about this one */
+
+    text-align: right;
+
+    white-space: nowrap; /* prevent breakin date up */
+    font-size: 0.8em;
+    color: #555;
+}
+
+
+.posts-list .post .post-tags {
+    /* ok, that's def nice; that way it ened up taking less vertical space on phone */
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    justify-self: stretch;
+
+    text-align: right;
+}
+
+.posts-list .pos .post-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#topnav {
+  font-weight: 600;
+  /* just to separate from the content */
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  margin-bottom: 16px;
+  line-height: 1.25;
+  border-bottom: 0.1rem dashed #718096;
+  font-size: 2em;
+  display: flex;
+  flex-wrap: wrap; /* default is nowrap; makes it responsive */
+  column-gap: 0.3em;
+}
+#topnav > a {
+  color: black; /* default links are blue */
+  /* text-transform: lowercase; */
+}
+#topnav > a:hover {
+  color: blue; /* hmm, not sure about this.. a bit misleading, usually unvisited are blue */
+  text-decoration: none;
+}
+.post-tag + .post-tag {
+    margin-left: 0.5em;
+}
+
+.post-tag {
+  font-size: 0.95em;
+  font-family: "Lucida Console", Monaco, monospace;
+
+  /* https://stackoverflow.com/a/12362315/706389
+     somewhat hacky way to prevent breaking tags on hyphens...
+   */
+  white-space: nowrap;
+}
+
+.tag-active {
+  color: #a51;
+  font-weight: bold;
+}
+
+.tag-inactive {
+  color: black;
+}
+
+#post-title h1 {
+  /* default margin is too large */
+  margin-bottom: 0em;
+}
+
+#post-title .summary {
+  /* ???  */
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+
+  color: #a9a9a9;
+  font-size: 1.5em;
+}
+
+#post-footer time {
+  color: #555;
+}
   </style>
 
 </head>
