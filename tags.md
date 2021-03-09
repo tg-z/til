@@ -1,23 +1,12 @@
-<h1 align="center"><code>$ til</code></h1>
+<h1 class="important">Glossary of tags</h1>
 
 <p align="center">
-<a href="https://github.com/tg-z/til/issues"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
-<a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
-<a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
-<img src="https://img.shields.io/github/contributors/tg-z/til?color=ff69b4"/></a>
-</p>
-
-<p align="center">
-welcome to my "today i learned" repository - it's filled with short entries of information for my own reference & retention 📓
-</p>
-
-<p align="center">
-  <a href="#vim">vim</a> •
-  <a href="#webdev">webdev</a> •
-  <a href="#terminal">terminal</a> •
-  <a href="#networking">networking</a> •
-  <a href="#concepts">concepts</a> •
-  <a href="#python">python</a><br>
+  <a href="#vim">#vim</a> •
+  <a href="#webdev">#webdev</a> •
+  <a href="#terminal">#terminal</a> •
+  <a href="#networking">#networking</a> •
+  <a href="#concepts">#concepts</a> •
+  <a href="#python">#python</a><br>
 </p>
 
 ![](static/tag-graph.svg)

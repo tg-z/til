@@ -12,8 +12,8 @@ const pkg = require('../package.json');
 const deployDir = path.resolve(process.cwd(), 'docs');
 const templatePath = path.resolve(process.cwd(), 'build', 'template.ejs');
 const cssPath = path.resolve(process.cwd(), 'build', 'style.css');
-const imgPath = path.resolve(process.cwd(), 'img');
-const faviconPath = path.resolve(process.cwd(), 'build', 'favicon.ico');
+const imgPath = path.resolve(process.cwd(), 'static');
+const faviconPath = path.resolve(process.cwd(), 'static', 'favicon.ico');
 
 mkdirs(deployDir)
   .then(dir => emptyDir(dir))
@@ -25,63 +25,67 @@ mkdirs(deployDir)
     path.resolve(deployDir, 'index.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'vim/vim-cli.md'),
-    path.resolve(deployDir, 'vim/vim-cli.html')
+    path.resolve(process.cwd(), 'tags.md'),
+    path.resolve(deployDir, 'tags.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'vim/remove-trailing-whitespace.md'),
-    path.resolve(deployDir, 'vim/remove-trailing-whitespace.html')
+    path.resolve(process.cwd(), 'posts/vim-cli.md'),
+    path.resolve(deployDir, 'posts/vim-cli.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'vim/replacing-words.md'),
-    path.resolve(deployDir, 'vim/replacing-words.html')
+    path.resolve(process.cwd(), 'posts/remove-trailing-whitespace.md'),
+    path.resolve(deployDir, 'posts/remove-trailing-whitespace.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'webdev/html-meta-tags.md'),
-    path.resolve(deployDir, 'webdev/html-meta-tags.html')
+    path.resolve(process.cwd(), 'posts/replacing-words-in-vim.md'),
+    path.resolve(deployDir, 'posts/replacing-words-in-vim.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'webdev/markdown-details-collapsible.md'),
-    path.resolve(deployDir, 'webdev/markdown-details-collapsible.html')
+    path.resolve(process.cwd(), 'posts/html-meta-tags.md'),
+    path.resolve(deployDir, 'posts/html-meta-tags.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'webdev/python-shell.md'),
-    path.resolve(deployDir, 'webdev/python-shell.html')
+    path.resolve(process.cwd(), 'posts/markdown-details-collapsible.md'),
+    path.resolve(deployDir, 'posts/markdown-details-collapsible.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'webdev/git-master-to-main.md'),
-    path.resolve(deployDir, 'webdev/git-master-to-main.html')
+    path.resolve(process.cwd(), 'posts/python-shell.md'),
+    path.resolve(deployDir, 'posts/python-shell.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'webdev/common-mime-types.md'),
-    path.resolve(deployDir, 'webdev/common-mime-types.html')
+    path.resolve(process.cwd(), 'posts/git-master-to-main.md'),
+    path.resolve(deployDir, 'posts/git-master-to-main.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'terminal/bash_color_codes.md'),
-    path.resolve(deployDir, 'terminal/bash_color_codes.html')
+    path.resolve(process.cwd(), 'posts/common-mime-types.md'),
+    path.resolve(deployDir, 'posts/common-mime-types.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'terminal/bash_script_conditions.md'),
-    path.resolve(deployDir, 'terminal/bash_script_conditions.html')
+    path.resolve(process.cwd(), 'posts/bash-color-codes.md'),
+    path.resolve(deployDir, 'posts/bash-color-codes.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'terminal/crontab-guide.md'),
-    path.resolve(deployDir, 'terminal/crontab-guide.html')
+    path.resolve(process.cwd(), 'posts/bash-script-conditions.md'),
+    path.resolve(deployDir, 'posts/bash-script-conditions.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'networking/remote-termux.md'),
-    path.resolve(deployDir, 'networking/remote-termux.html')
+    path.resolve(process.cwd(), 'posts/crontab-guide.md'),
+    path.resolve(deployDir, 'posts/crontab-guide.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'concepts/straw-man.md'),
-    path.resolve(deployDir, 'concepts/straw-man.html')
+    path.resolve(process.cwd(), 'posts/remote-termux.md'),
+    path.resolve(deployDir, 'posts/remote-termux.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
-    path.resolve(process.cwd(), 'concepts/stop-usrbinenv.md'),
-    path.resolve(deployDir, 'concepts/stop-usrbinenv.html')
+    path.resolve(process.cwd(), 'posts/straw-man.md'),
+    path.resolve(deployDir, 'posts/straw-man.html')
+  ))
+  .then(dir => MarkedToHTMLOutputFile(
+    path.resolve(process.cwd(), 'posts/stop-usrbinenv.md'),
+    path.resolve(deployDir, 'posts/stop-usrbinenv.html')
   ))
   .then(() => FS.copySync(cssPath, path.resolve(deployDir, 'style.css') ))
-  .then(() => FS.copySync(imgPath, path.resolve(deployDir, 'img') ))
+  .then(() => FS.copySync(imgPath, path.resolve(deployDir, 'static') ))
   .then(() => FS.copySync(faviconPath, path.resolve(deployDir, 'favicon.ico') ))
 
   // .then(() => PushGhpage(deployDir, {
