@@ -43,10 +43,25 @@
     <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a></span>
    </div>
 
+  <div class="post">
+    <a class="post-link" href="posts/markdown-details-collapsible.html">
+    <div class="title">collapsible sections in markdown</div>
+    </a>
+    <span class="post-tags">
+    <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a></span>
+   </div>
+
+  <div class="post">
+    <a class="post-link" href="posts/git-master-to-main.html">
+    <div class="title">git change branch master to main</div>
+    </a>
+    <span class="post-tags">
+    <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a></span>
+    <a class="post-tag tag-inactive" href="tags.html">#cli</a></span>
+    <a class="post-tag tag-inactive" href="tags.html#terminal">#terminal</a></span>
+   </div>
 
 <!--
-    <a href="posts/markdown-details-collapsible.html">collapsible sections in markdown</a>
-    <a href="posts/git-master-to-main.html">git change branch master to main</a>
     <a href="posts/common-mime-types.html">common mime types</a>
     <a href="posts/bash-color-codes.html">bash color codes</a>
     <a href="posts/bash-script-conditions.html">bash script conditions</a>
