@@ -189,22 +189,42 @@ div.mermaid {
   font-family: 'Courier New', Courier, monospace !important;
 }
 
+<!-- pre { -->
+<!--   display: block; -->
+<!-- } -->
+
+<!-- code, -->
+<!-- tt { -->
+<!--   padding: 1px; -->
+<!--   margin: 0; -->
+<!--   font-size: 85%; -->
+<!--   background-color: rgba(0, 0, 0, 0.04); -->
+<!--   <!-1- background-color: #F3F3F3; -->
+<!--   -1-> border-radius: 3px; -->
+<!-- } -->
+
 pre {
+  padding: 0;
   display: block;
 }
-
-code,
-tt {
-  padding: 1px;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0, 0, 0, 0.04);
-  <!-- background-color: #F3F3F3;
-  --> border-radius: 3px;
+pre {
+    <!-- background-color: #f2f2f2; -->
+    <!-- border: 1px solid #a8a8a8; -->
+    <!-- border-radius: 2px; -->
+    <!-- padding: 2px; -->
+    <!-- margin-bottom: 2px; -->
+    line-height: 1;
 }
-
-pre code {
-  padding: 0;
+code {
+    font-size: 95%;
+    color: black;
+    border-radius: 2px;
+    <!-- background-color: #f9f9f9;
+    background-color: #F3F3F3; -->
+    background-color: #DDDDDD;
+    border: 1px solid #ddd;
+    padding: 2px;
+    display: inline-block:overflow:scroll;
 }
 
 table {
@@ -367,4 +387,4 @@ td.center {
 }
 #post-footer time {
   color: #555;
-} </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script> hljs.initHighlightingOnLoad(); </script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewbox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script> mermaid.initialize({startOnLoad: true}); </script> <article class="markdown-body"> <h1 id="removing-trailing-whitespaces-in-vim">removing trailing whitespaces in vim</h1><p><a href="https://vim.help/12-clever-tricks#12.7">https://vim.help/12-clever-tricks#12.7</a></p> <blockquote> <p>By combining several commands you can make Vim do nearly everything. In this chapter a number of useful combinations will be presented. This uses the commands introduced in the previous chapters and a few more.</p> </blockquote> <h2 id="clever-tricks">Clever tricks</h2><h2 id="trim-blanks">Trim blanks</h2><p>Some people find spaces and tabs at the end of a line useless, wasteful, and ugly. To remove whitespace at the end of every line, execute the following command:</p> <p><code>:%s/\s\+$//</code></p> <p>The line range <code>%</code> is used, thus this works on the whole file. The pattern that the <code>:substitute</code> command matches with is <code>\s\+$</code>. This finds white space characters (\s), 1 or more of them (\+), before the end-of-line ($). Later will be explained how you write patterns like this, see “<a href="https://vim.help/27-search-commands-and-patterns">Search commands and patterns</a>”.</p> <p>The <code>to</code> part of the substitute command is empty: <code>//</code>. Thus it replaces with nothing, effectively deleting the matched white space.</p> <p>Another wasteful use of spaces is placing them before a tab. Often these can be deleted without changing the amount of white space. But not always! Therefore, you can best do this manually. Use this search command:</p> <p><code>/</code></p> <p>You cannot see it, but there is a space before a tab in this command. Thus it&#39;s <code>/&lt;Space&gt;&lt;Tab&gt;</code>. Now use <code>x</code> to delete the space and check that the amount of white space doesn&#39;t change. You might have to insert a tab if it does change. Type <code>n</code> to find the next match. Repeat this until no more matches can be found.</p> <div class="tags"> <p>tags: <a href="../tags.html#vim">#vim</a></p> </div> <div class="tags" align="center"> <a href="../index.html">⭠</a> </div> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html>
+} </style> </head> <script src="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/highlight.min.js"></script> <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.5.0/styles/dracula.min.css"> <script> hljs.initHighlightingOnLoad(); </script> <body> <a href="https://github.com/tg-z/til" target="_blank" class="github-corner"> <svg viewbox="0 0 250 250"> <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path> <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path> <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path> </svg> </a> <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script> mermaid.initialize({startOnLoad: true}); </script> <article class="markdown-body"> <h1 id="removing-trailing-whitespaces-in-vim">removing trailing whitespaces in vim</h1><p><a href="https://vim.help/12-clever-tricks#12.7">https://vim.help/12-clever-tricks#12.7</a></p> <blockquote> <p>By combining several commands you can make Vim do nearly everything. In this chapter a number of useful combinations will be presented. This uses the commands introduced in the previous chapters and a few more.</p> </blockquote> <h2 id="clever-tricks">Clever tricks</h2><h2 id="trim-blanks">Trim blanks</h2><p>Some people find spaces and tabs at the end of a line useless, wasteful, and ugly. To remove whitespace at the end of every line, execute the following command:</p> <p><code>:%s/\s\+$//</code></p> <p>The line range <code>%</code> is used, thus this works on the whole file. The pattern that the <code>:substitute</code> command matches with is <code>\s\+$</code>. This finds white space characters (\s), 1 or more of them (\+), before the end-of-line ($). Later will be explained how you write patterns like this, see “<a href="https://vim.help/27-search-commands-and-patterns">Search commands and patterns</a>”.</p> <p>The <code>to</code> part of the substitute command is empty: <code>//</code>. Thus it replaces with nothing, effectively deleting the matched white space.</p> <p>Another wasteful use of spaces is placing them before a tab. Often these can be deleted without changing the amount of white space. But not always! Therefore, you can best do this manually. Use this search command:</p> <p><code>/</code></p> <p>You cannot see it, but there is a space before a tab in this command. Thus it&#39;s <code>/&lt;Space&gt;&lt;Tab&gt;</code>. Now use <code>x</code> to delete the space and check that the amount of white space doesn&#39;t change. You might have to insert a tab if it does change. Type <code>n</code> to find the next match. Repeat this until no more matches can be found.</p> <div class="tags"> <p>tags: <a href="../tags.html#vim">#vim</a></p> </div> <div class="tags" align="center"> <a href="../index.html">⭠</a> </div> </article> <footer> &copy; 2021 <a href="https://github.com/tg-z" target="_blank">@tg-z</a> <a href="https://twitter.com/parasite______" target="_blank">@twitter</a> </footer> </body> </html> 

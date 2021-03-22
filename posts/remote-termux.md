@@ -20,7 +20,7 @@ https://wiki.termux.com/wiki/Remote_Access
 - [Using the SFTP](#using-the-sftp)
 	- [Mosh usage example](#mosh-usage-example)
 	- [Rsync usage example](#rsync-usage-example)
-	- [See Also](#see-also)
+- [See Also](#see-also)
 
 <!-- vim-markdown-toc -->
 
@@ -286,7 +286,7 @@ Sync local directories (e.g. from external sdcard to Termux home):
 
 You may want to see man page (`man rsync`) to learn more about it's usage.
 
-### See Also
+## See Also
 
 [Accessing Termux from the Internet](https://wiki.termux.com/wiki/Bypassing_NAT "Bypassing NAT")
 
