@@ -12,6 +12,8 @@ const pkg = require('../package.json');
 const deployDir = path.resolve(process.cwd(), 'docs');
 const templatePath = path.resolve(process.cwd(), 'build', 'template.ejs');
 const cssPath = path.resolve(process.cwd(), 'build', 'style.css');
+const rssPath = path.resolve(process.cwd(), 'rss.xml');
+const atomPath = path.resolve(process.cwd(), 'atom.xml');
 const imgPath = path.resolve(process.cwd(), 'static');
 const faviconPath = path.resolve(process.cwd(), 'static', 'favicon.ico');
 
@@ -81,11 +83,17 @@ mkdirs(deployDir)
     path.resolve(deployDir, 'posts/straw-man.html')
   ))
   .then(dir => MarkedToHTMLOutputFile(
+    path.resolve(process.cwd(), 'feed.md'),
+    path.resolve(deployDir, 'feed.html')
+  ))
+  .then(dir => MarkedToHTMLOutputFile(
     path.resolve(process.cwd(), 'posts/stop-usrbinenv.md'),
     path.resolve(deployDir, 'posts/stop-usrbinenv.html')
   ))
   .then(() => FS.copySync(cssPath, path.resolve(deployDir, 'style.css') ))
   .then(() => FS.copySync(imgPath, path.resolve(deployDir, 'static') ))
+  .then(() => FS.copySync(rssPath, path.resolve(deployDir, 'rss.xml') ))
+  .then(() => FS.copySync(atomPath, path.resolve(deployDir, 'atom.xml') ))
   .then(() => FS.copySync(faviconPath, path.resolve(deployDir, 'favicon.ico') ))
 
   // .then(() => PushGhpage(deployDir, {

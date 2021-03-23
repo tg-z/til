@@ -308,6 +308,8 @@ td.center {
 /* */
 
 .posts-list {
+  margin: -1vw -1vw;
+  max-width: 900px;
   --width: 60rem;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -324,7 +326,7 @@ td.center {
 }
 .posts-list .post a.post-link {
   text-decoration: none;
-  margin-left:auto;
+  margin-left: 1px;
 }
 .posts-list .post .summary {
 /*  padding-left: 1px; */
@@ -338,6 +340,7 @@ td.center {
   text-align: right;
   white-space: nowrap; /* prevent breakin date up */
   font-size: 0.8em;
+  font-family: "Lucida Console", Monaco, monospace;
   color: #555;
 }
 .posts-list .post .post-tags {
@@ -352,6 +355,16 @@ td.center {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
+}
+
+.post-tag {
+  font-size: 0.95em;
+  font-family: "Lucida Console", Monaco, monospace;
+
+  /* https://stackoverflow.com/a/12362315/706389
+     somewhat hacky way to prevent breaking tags on hyphens...
+   */
+  white-space: nowrap;
 }
 
 #topnav {
@@ -369,6 +382,7 @@ td.center {
 }
 
 #topnav > a {
+  text-transform: uppercase;
   color: black; /* default links are blue */
   /* text-transform: lowercase; */
 }

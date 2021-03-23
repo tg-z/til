@@ -1,6 +1,7 @@
 <nav id="topnav">
   <a href="index.html">home</a>
   <a href="tags.html">tags</a>
+  <a href="feed.html">feed</a>
   <a href="https://github.com/tg-z/til/issues" style="margin-left:auto"><img alt="github issues" src="https://img.shields.io/github/issues/tg-z/til?color=ff69b4"></a>
   <a href="https://github.com/tg-z/til/stargazers"><img alt="github stars" src="https://img.shields.io/github/stars/tg-z/til?color=ff69b4"></a>
   <a href="https://github.com/tg-z/til/graphs/contributors" alt="contributors">
@@ -68,7 +69,8 @@
     </a>
 <time datetime="2021-03-22T00:00:00">22 March 2021</time>
     <span class="post-tags">
-    <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a>    <a class="post-tag tag-inactive" href="tags.html#terminal">#terminal</a>
+    <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a>
+<a class="post-tag tag-inactive" href="tags.html#terminal">#terminal</a>
 <a class="post-tag tag-inactive" href="tags.html">#cli</a></span>
    </div>
 
@@ -80,8 +82,7 @@
 <time datetime="2021-03-22T00:00:00">22 March 2021</time>
 <span class="post-tags">
 <a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
-<a class="post-tag tag-inactive" href="tags.html">#bash</a>
-</span>
+<a class="post-tag tag-inactive" href="tags.html">#bash</a></span>
 </div>
 
   <div class="post">
@@ -94,10 +95,32 @@
     <a class="post-tag tag-active" href="tags.html#webdev">#webdev</a>
   </div>
 
+<div class="post">
+<a class="post-link" href="posts/bash-script-conditions.html">
+<div class="title">bash script conditions</div>
+<div class="summary">how to properly use conditions in bash scripts</div>
+</a>
+<time datetime="2020-12-22T00:00:00">22 December 2020</time>
+<span class="post-tags">
+<a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
+<a class="post-tag tag-inactive" href="tags.html">#bash</a>
+</span>
+</div>
+
+<div class="post">
+<a class="post-link" href="posts/crontab-guide.html">
+<div class="title">crontab guide</div>
+<div class="summary">how to manage cronjobs (+ example crontab file)</div>
+</a>
+<time datetime="2020-10-01T00:00:00">01 October 2020</time>
+<span class="post-tags">
+<a class="post-tag tag-active" href="tags.html#terminal">#terminal</a>
+<a class="post-tag tag-inactive" href="tags.html">#bash</a>
+</span>
+</div>
+
 <!--
 
-    <a href="posts/bash-script-conditions.html">bash script conditions</a>
-    <a href="posts/crontab-guide.html">crontab guide</a>
     <a href="posts/remote-termux.html">termux remote</a>
     <a href="posts/straw-man.html">straw man</a>
     <a href="posts/stop-usrbinenv.html">stop #!/usr/bin/env in scripts</a>
