@@ -12,3 +12,4 @@ Thumbs.db
 *.key*
 node_modules/*
 package-lock.json
+build/__pycache__/
